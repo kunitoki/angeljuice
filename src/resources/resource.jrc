@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<config resourceName="Resource" outputName="AngelJuice_Resource">
+  <file filename="filerevert.png" name="filerevert" extension="png"/>
+  <file filename="filesave.png" name="filesave" extension="png"/>
+  <file filename="filesaveall.png" name="filesaveall" extension="png"/>
+  <file filename="filesaveas.png" name="filesaveas" extension="png"/>
+  <file filename="fonts.png" name="fonts" extension="png"/>
+  <file filename="help.png" name="help" extension="png"/>
+  <file filename="options.png" name="options" extension="png"/>
+  <file filename="redo.png" name="redo" extension="png"/>
+  <file filename="undo.png" name="undo" extension="png"/>
+  <file filename="update.png" name="update" extension="png"/>
+  <file filename="compilerabort.png" name="compilerabort" extension="png"/>
+  <file filename="compilercontinue.png" name="compilercontinue" extension="png"/>
+  <file filename="compilerrun.png" name="compilerrun" extension="png"/>
+  <file filename="compilerstep.png" name="compilerstep" extension="png"/>
+  <file filename="debug.png" name="debug" extension="png"/>
+  <file filename="editcopy.png" name="editcopy" extension="png"/>
+  <file filename="editcut.png" name="editcut" extension="png"/>
+  <file filename="editdelete.png" name="editdelete" extension="png"/>
+  <file filename="editpaste.png" name="editpaste" extension="png"/>
+  <file filename="fileclose.png" name="fileclose" extension="png"/>
+  <file filename="filefind.png" name="filefind" extension="png"/>
+  <file filename="filenew.png" name="filenew" extension="png"/>
+  <file filename="fileopen.png" name="fileopen" extension="png"/>
+  <file filename="quit.png" name="quit" extension="png"/>
+  <file filename="logo.png" name="logo" extension="png"/>
+  <file filename="proggytiny.ztf" name="proggytiny" extension="ztf"/>
+  <file filename="options_about.png" name="options_about" extension="png"/>
+  <file filename="options_compiler.png" name="options_compiler" extension="png"/>
+  <file filename="options_font.png" name="options_font" extension="png"/>
+  <file filename="options_keyboard.png" name="options_keyboard" extension="png"/>
+</config>

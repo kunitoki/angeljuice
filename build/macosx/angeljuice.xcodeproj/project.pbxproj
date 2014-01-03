@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		577F48AB0A6123DD00D2C579 /* AngelJuice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F485E0A6123DD00D2C579 /* AngelJuice.cpp */; };
+		577F48AC0A6123DD00D2C579 /* AngelJuice.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F485F0A6123DD00D2C579 /* AngelJuice.h */; };
+		577F48AD0A6123DD00D2C579 /* AngelJuice_command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48600A6123DD00D2C579 /* AngelJuice_command.cpp */; };
+		577F48AE0A6123DD00D2C579 /* AngelJuice_command.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48610A6123DD00D2C579 /* AngelJuice_command.h */; };
+		577F48AF0A6123DD00D2C579 /* AngelJuice_config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48620A6123DD00D2C579 /* AngelJuice_config.cpp */; };
+		577F48B00A6123DD00D2C579 /* AngelJuice_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48630A6123DD00D2C579 /* AngelJuice_config.h */; };
+		577F48B10A6123DD00D2C579 /* AngelJuice_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48640A6123DD00D2C579 /* AngelJuice_main.cpp */; };
+		577F48B20A6123DD00D2C579 /* AngelJuice_window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48650A6123DD00D2C579 /* AngelJuice_window.cpp */; };
+		577F48B30A6123DD00D2C579 /* AngelJuice_window.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48660A6123DD00D2C579 /* AngelJuice_window.h */; };
+		577F48B40A6123DD00D2C579 /* AngelJuice_OpenDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48680A6123DD00D2C579 /* AngelJuice_OpenDocument.cpp */; };
+		577F48B50A6123DD00D2C579 /* AngelJuice_OpenDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48690A6123DD00D2C579 /* AngelJuice_OpenDocument.h */; };
+		577F48B60A6123DD00D2C579 /* AngelJuice_SyntaxLexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F486A0A6123DD00D2C579 /* AngelJuice_SyntaxLexer.h */; };
+		577F48B70A6123DD00D2C579 /* AngelJuice_TabbedEditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F486B0A6123DD00D2C579 /* AngelJuice_TabbedEditor.cpp */; };
+		577F48B80A6123DD00D2C579 /* AngelJuice_TabbedEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F486C0A6123DD00D2C579 /* AngelJuice_TabbedEditor.h */; };
+		577F48B90A6123DD00D2C579 /* AngelJuice_AboutPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F486E0A6123DD00D2C579 /* AngelJuice_AboutPage.cpp */; };
+		577F48BA0A6123DD00D2C579 /* AngelJuice_AboutPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F486F0A6123DD00D2C579 /* AngelJuice_AboutPage.h */; };
+		577F48BB0A6123DD00D2C579 /* AngelJuice_ColourEditor.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48700A6123DD00D2C579 /* AngelJuice_ColourEditor.h */; };
+		577F48BC0A6123DD00D2C579 /* AngelJuice_CompilerPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48710A6123DD00D2C579 /* AngelJuice_CompilerPage.cpp */; };
+		577F48BD0A6123DD00D2C579 /* AngelJuice_CompilerPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48720A6123DD00D2C579 /* AngelJuice_CompilerPage.h */; };
+		577F48BE0A6123DD00D2C579 /* AngelJuice_FontsPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48730A6123DD00D2C579 /* AngelJuice_FontsPage.cpp */; };
+		577F48BF0A6123DD00D2C579 /* AngelJuice_FontsPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48740A6123DD00D2C579 /* AngelJuice_FontsPage.h */; };
+		577F48C00A6123DD00D2C579 /* AngelJuice_OptionWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48750A6123DD00D2C579 /* AngelJuice_OptionWindow.cpp */; };
+		577F48C10A6123DD00D2C579 /* AngelJuice_OptionWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48760A6123DD00D2C579 /* AngelJuice_OptionWindow.h */; };
+		577F48C20A6123DD00D2C579 /* AngelJuice_Resource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48780A6123DD00D2C579 /* AngelJuice_Resource.cpp */; };
+		577F48C30A6123DD00D2C579 /* AngelJuice_Resource.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48790A6123DD00D2C579 /* AngelJuice_Resource.h */; };
+		577F48E60A6123DD00D2C579 /* AngelJuice_CallstackOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F489D0A6123DD00D2C579 /* AngelJuice_CallstackOutput.cpp */; };
+		577F48E70A6123DD00D2C579 /* AngelJuice_CallstackOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F489E0A6123DD00D2C579 /* AngelJuice_CallstackOutput.h */; };
+		577F48E80A6123DD00D2C579 /* AngelJuice_DebugOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F489F0A6123DD00D2C579 /* AngelJuice_DebugOutput.cpp */; };
+		577F48E90A6123DD00D2C579 /* AngelJuice_DebugOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48A00A6123DD00D2C579 /* AngelJuice_DebugOutput.h */; };
+		577F48EA0A6123DD00D2C579 /* AngelJuice_SearchComponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48A10A6123DD00D2C579 /* AngelJuice_SearchComponent.cpp */; };
+		577F48EB0A6123DD00D2C579 /* AngelJuice_SearchComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48A20A6123DD00D2C579 /* AngelJuice_SearchComponent.h */; };
+		577F48EC0A6123DD00D2C579 /* AngelJuice_StatusBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48A30A6123DD00D2C579 /* AngelJuice_StatusBar.cpp */; };
+		577F48ED0A6123DD00D2C579 /* AngelJuice_StatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48A40A6123DD00D2C579 /* AngelJuice_StatusBar.h */; };
+		577F48EE0A6123DD00D2C579 /* AngelJuice_TabbedSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48A50A6123DD00D2C579 /* AngelJuice_TabbedSupport.cpp */; };
+		577F48EF0A6123DD00D2C579 /* AngelJuice_TabbedSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48A60A6123DD00D2C579 /* AngelJuice_TabbedSupport.h */; };
+		577F48F00A6123DD00D2C579 /* AngelJuice_Toolbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 577F48A70A6123DD00D2C579 /* AngelJuice_Toolbar.cpp */; };
+		577F48F10A6123DD00D2C579 /* AngelJuice_Toolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 577F48A80A6123DD00D2C579 /* AngelJuice_Toolbar.h */; };
+		57A4417D0A6135E20005F95F /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A441750A6135E20005F95F /* AGL.framework */; };
+		57A4417E0A6135E20005F95F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A441760A6135E20005F95F /* Carbon.framework */; };
+		57A4417F0A6135E20005F95F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A441770A6135E20005F95F /* CoreAudio.framework */; };
+		57A441800A6135E20005F95F /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A441780A6135E20005F95F /* CoreMIDI.framework */; };
+		57A441810A6135E20005F95F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A441790A6135E20005F95F /* CoreServices.framework */; };
+		57A441820A6135E20005F95F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4417A0A6135E20005F95F /* IOKit.framework */; };
+		57A441830A6135E20005F95F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4417B0A6135E20005F95F /* OpenGL.framework */; };
+		57A441840A6135E20005F95F /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A4417C0A6135E20005F95F /* QuickTime.framework */; };
+		57A441A40A61382E0005F95F /* juce.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 57A441A30A61382E0005F95F /* juce.xcconfig */; };
+		57A4420C0A613F780005F95F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57A4420A0A613F780005F95F /* InfoPlist.strings */; };
+		57A442280A61407F0005F95F /* libejucedebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A442270A6140620005F95F /* libejucedebug.a */; };
+		57A443A00A61538C0005F95F /* libjucedebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A442210A61404F0005F95F /* libjucedebug.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57A442200A61404F0005F95F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A4421C0A61404F0005F95F /* Juce.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC046055464E500DB518D;
+			remoteInfo = Juce;
+		};
+		57A442260A6140620005F95F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57A442220A6140620005F95F /* EJUCE.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 57A441E10A613D670005F95F;
+			remoteInfo = ejuce;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		577F485B0A6123DD00D2C579 /* angeljuice_readme.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = angeljuice_readme.txt; path = ../../angeljuice_readme.txt; sourceTree = SOURCE_ROOT; };
+		577F485C0A6123DD00D2C579 /* angeljuice_source.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = angeljuice_source.txt; path = ../../angeljuice_source.txt; sourceTree = SOURCE_ROOT; };
+		577F485E0A6123DD00D2C579 /* AngelJuice.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice.cpp; sourceTree = "<group>"; };
+		577F485F0A6123DD00D2C579 /* AngelJuice.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice.h; sourceTree = "<group>"; };
+		577F48600A6123DD00D2C579 /* AngelJuice_command.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_command.cpp; sourceTree = "<group>"; };
+		577F48610A6123DD00D2C579 /* AngelJuice_command.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_command.h; sourceTree = "<group>"; };
+		577F48620A6123DD00D2C579 /* AngelJuice_config.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_config.cpp; sourceTree = "<group>"; };
+		577F48630A6123DD00D2C579 /* AngelJuice_config.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_config.h; sourceTree = "<group>"; };
+		577F48640A6123DD00D2C579 /* AngelJuice_main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_main.cpp; sourceTree = "<group>"; };
+		577F48650A6123DD00D2C579 /* AngelJuice_window.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_window.cpp; sourceTree = "<group>"; };
+		577F48660A6123DD00D2C579 /* AngelJuice_window.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_window.h; sourceTree = "<group>"; };
+		577F48680A6123DD00D2C579 /* AngelJuice_OpenDocument.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_OpenDocument.cpp; sourceTree = "<group>"; };
+		577F48690A6123DD00D2C579 /* AngelJuice_OpenDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_OpenDocument.h; sourceTree = "<group>"; };
+		577F486A0A6123DD00D2C579 /* AngelJuice_SyntaxLexer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_SyntaxLexer.h; sourceTree = "<group>"; };
+		577F486B0A6123DD00D2C579 /* AngelJuice_TabbedEditor.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_TabbedEditor.cpp; sourceTree = "<group>"; };
+		577F486C0A6123DD00D2C579 /* AngelJuice_TabbedEditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_TabbedEditor.h; sourceTree = "<group>"; };
+		577F486E0A6123DD00D2C579 /* AngelJuice_AboutPage.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_AboutPage.cpp; sourceTree = "<group>"; };
+		577F486F0A6123DD00D2C579 /* AngelJuice_AboutPage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_AboutPage.h; sourceTree = "<group>"; };
+		577F48700A6123DD00D2C579 /* AngelJuice_ColourEditor.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_ColourEditor.h; sourceTree = "<group>"; };
+		577F48710A6123DD00D2C579 /* AngelJuice_CompilerPage.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_CompilerPage.cpp; sourceTree = "<group>"; };
+		577F48720A6123DD00D2C579 /* AngelJuice_CompilerPage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_CompilerPage.h; sourceTree = "<group>"; };
+		577F48730A6123DD00D2C579 /* AngelJuice_FontsPage.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_FontsPage.cpp; sourceTree = "<group>"; };
+		577F48740A6123DD00D2C579 /* AngelJuice_FontsPage.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_FontsPage.h; sourceTree = "<group>"; };
+		577F48750A6123DD00D2C579 /* AngelJuice_OptionWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_OptionWindow.cpp; sourceTree = "<group>"; };
+		577F48760A6123DD00D2C579 /* AngelJuice_OptionWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_OptionWindow.h; sourceTree = "<group>"; };
+		577F48780A6123DD00D2C579 /* AngelJuice_Resource.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_Resource.cpp; sourceTree = "<group>"; };
+		577F48790A6123DD00D2C579 /* AngelJuice_Resource.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_Resource.h; sourceTree = "<group>"; };
+		577F489D0A6123DD00D2C579 /* AngelJuice_CallstackOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_CallstackOutput.cpp; sourceTree = "<group>"; };
+		577F489E0A6123DD00D2C579 /* AngelJuice_CallstackOutput.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_CallstackOutput.h; sourceTree = "<group>"; };
+		577F489F0A6123DD00D2C579 /* AngelJuice_DebugOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_DebugOutput.cpp; sourceTree = "<group>"; };
+		577F48A00A6123DD00D2C579 /* AngelJuice_DebugOutput.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_DebugOutput.h; sourceTree = "<group>"; };
+		577F48A10A6123DD00D2C579 /* AngelJuice_SearchComponent.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_SearchComponent.cpp; sourceTree = "<group>"; };
+		577F48A20A6123DD00D2C579 /* AngelJuice_SearchComponent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_SearchComponent.h; sourceTree = "<group>"; };
+		577F48A30A6123DD00D2C579 /* AngelJuice_StatusBar.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_StatusBar.cpp; sourceTree = "<group>"; };
+		577F48A40A6123DD00D2C579 /* AngelJuice_StatusBar.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_StatusBar.h; sourceTree = "<group>"; };
+		577F48A50A6123DD00D2C579 /* AngelJuice_TabbedSupport.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_TabbedSupport.cpp; sourceTree = "<group>"; };
+		577F48A60A6123DD00D2C579 /* AngelJuice_TabbedSupport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_TabbedSupport.h; sourceTree = "<group>"; };
+		577F48A70A6123DD00D2C579 /* AngelJuice_Toolbar.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = AngelJuice_Toolbar.cpp; sourceTree = "<group>"; };
+		577F48A80A6123DD00D2C579 /* AngelJuice_Toolbar.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = AngelJuice_Toolbar.h; sourceTree = "<group>"; };
+		57A43EF70A6130E30005F95F /* angeljuice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = angeljuice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A441750A6135E20005F95F /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		57A441760A6135E20005F95F /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		57A441770A6135E20005F95F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		57A441780A6135E20005F95F /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		57A441790A6135E20005F95F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = /System/Library/Frameworks/CoreServices.framework; sourceTree = "<absolute>"; };
+		57A4417A0A6135E20005F95F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		57A4417B0A6135E20005F95F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		57A4417C0A6135E20005F95F /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		57A4418D0A6136BF0005F95F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		57A441A30A61382E0005F95F /* juce.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; name = juce.xcconfig; path = ../../../../build/macosx/juce.xcconfig; sourceTree = SOURCE_ROOT; };
+		57A4420B0A613F780005F95F /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = InfoPlist.strings; sourceTree = "<group>"; };
+		57A4421C0A61404F0005F95F /* Juce.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Juce.xcodeproj; path = ../../../../build/macosx/Juce.xcodeproj; sourceTree = SOURCE_ROOT; };
+		57A442220A6140620005F95F /* EJUCE.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = EJUCE.xcodeproj; path = ../../../ejuce/build/macosx/EJUCE.xcodeproj; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0C4E910486CD37000505A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A443A00A61538C0005F95F /* libjucedebug.a in Frameworks */,
+				57A442280A61407F0005F95F /* libejucedebug.a in Frameworks */,
+				57A4417D0A6135E20005F95F /* AGL.framework in Frameworks */,
+				57A4417E0A6135E20005F95F /* Carbon.framework in Frameworks */,
+				57A4417F0A6135E20005F95F /* CoreAudio.framework in Frameworks */,
+				57A441800A6135E20005F95F /* CoreMIDI.framework in Frameworks */,
+				57A441810A6135E20005F95F /* CoreServices.framework in Frameworks */,
+				57A441820A6135E20005F95F /* IOKit.framework in Frameworks */,
+				57A441830A6135E20005F95F /* OpenGL.framework in Frameworks */,
+				57A441840A6135E20005F95F /* QuickTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20286C29FDCF999611CA2CEA /* jucedemo */ = {
+			isa = PBXGroup;
+			children = (
+				57A441A30A61382E0005F95F /* juce.xcconfig */,
+				577F485B0A6123DD00D2C579 /* angeljuice_readme.txt */,
+				577F485C0A6123DD00D2C579 /* angeljuice_source.txt */,
+				577F485D0A6123DD00D2C579 /* src */,
+				57A4418C0A6136A00005F95F /* Resources */,
+				57A4418B0A61366A0005F95F /* Frameworks */,
+				57A43EF80A6130E30005F95F /* Products */,
+			);
+			name = jucedemo;
+			sourceTree = "<group>";
+		};
+		577F485D0A6123DD00D2C579 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				577F485E0A6123DD00D2C579 /* AngelJuice.cpp */,
+				577F485F0A6123DD00D2C579 /* AngelJuice.h */,
+				577F48600A6123DD00D2C579 /* AngelJuice_command.cpp */,
+				577F48610A6123DD00D2C579 /* AngelJuice_command.h */,
+				577F48620A6123DD00D2C579 /* AngelJuice_config.cpp */,
+				577F48630A6123DD00D2C579 /* AngelJuice_config.h */,
+				577F48640A6123DD00D2C579 /* AngelJuice_main.cpp */,
+				577F48650A6123DD00D2C579 /* AngelJuice_window.cpp */,
+				577F48660A6123DD00D2C579 /* AngelJuice_window.h */,
+				577F48670A6123DD00D2C579 /* document */,
+				577F486D0A6123DD00D2C579 /* options */,
+				577F48770A6123DD00D2C579 /* resources */,
+				577F489C0A6123DD00D2C579 /* support */,
+			);
+			name = src;
+			path = ../../src;
+			sourceTree = SOURCE_ROOT;
+		};
+		577F48670A6123DD00D2C579 /* document */ = {
+			isa = PBXGroup;
+			children = (
+				577F48680A6123DD00D2C579 /* AngelJuice_OpenDocument.cpp */,
+				577F48690A6123DD00D2C579 /* AngelJuice_OpenDocument.h */,
+				577F486A0A6123DD00D2C579 /* AngelJuice_SyntaxLexer.h */,
+				577F486B0A6123DD00D2C579 /* AngelJuice_TabbedEditor.cpp */,
+				577F486C0A6123DD00D2C579 /* AngelJuice_TabbedEditor.h */,
+			);
+			path = document;
+			sourceTree = "<group>";
+		};
+		577F486D0A6123DD00D2C579 /* options */ = {
+			isa = PBXGroup;
+			children = (
+				577F486E0A6123DD00D2C579 /* AngelJuice_AboutPage.cpp */,
+				577F486F0A6123DD00D2C579 /* AngelJuice_AboutPage.h */,
+				577F48700A6123DD00D2C579 /* AngelJuice_ColourEditor.h */,
+				577F48710A6123DD00D2C579 /* AngelJuice_CompilerPage.cpp */,
+				577F48720A6123DD00D2C579 /* AngelJuice_CompilerPage.h */,
+				577F48730A6123DD00D2C579 /* AngelJuice_FontsPage.cpp */,
+				577F48740A6123DD00D2C579 /* AngelJuice_FontsPage.h */,
+				577F48750A6123DD00D2C579 /* AngelJuice_OptionWindow.cpp */,
+				577F48760A6123DD00D2C579 /* AngelJuice_OptionWindow.h */,
+			);
+			path = options;
+			sourceTree = "<group>";
+		};
+		577F48770A6123DD00D2C579 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				577F48780A6123DD00D2C579 /* AngelJuice_Resource.cpp */,
+				577F48790A6123DD00D2C579 /* AngelJuice_Resource.h */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		577F489C0A6123DD00D2C579 /* support */ = {
+			isa = PBXGroup;
+			children = (
+				577F489D0A6123DD00D2C579 /* AngelJuice_CallstackOutput.cpp */,
+				577F489E0A6123DD00D2C579 /* AngelJuice_CallstackOutput.h */,
+				577F489F0A6123DD00D2C579 /* AngelJuice_DebugOutput.cpp */,
+				577F48A00A6123DD00D2C579 /* AngelJuice_DebugOutput.h */,
+				577F48A10A6123DD00D2C579 /* AngelJuice_SearchComponent.cpp */,
+				577F48A20A6123DD00D2C579 /* AngelJuice_SearchComponent.h */,
+				577F48A30A6123DD00D2C579 /* AngelJuice_StatusBar.cpp */,
+				577F48A40A6123DD00D2C579 /* AngelJuice_StatusBar.h */,
+				577F48A50A6123DD00D2C579 /* AngelJuice_TabbedSupport.cpp */,
+				577F48A60A6123DD00D2C579 /* AngelJuice_TabbedSupport.h */,
+				577F48A70A6123DD00D2C579 /* AngelJuice_Toolbar.cpp */,
+				577F48A80A6123DD00D2C579 /* AngelJuice_Toolbar.h */,
+			);
+			path = support;
+			sourceTree = "<group>";
+		};
+		57A43EF80A6130E30005F95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A43EF70A6130E30005F95F /* angeljuice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A4418B0A61366A0005F95F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57A442220A6140620005F95F /* EJUCE.xcodeproj */,
+				57A4421C0A61404F0005F95F /* Juce.xcodeproj */,
+				57A441750A6135E20005F95F /* AGL.framework */,
+				57A441760A6135E20005F95F /* Carbon.framework */,
+				57A441770A6135E20005F95F /* CoreAudio.framework */,
+				57A441780A6135E20005F95F /* CoreMIDI.framework */,
+				57A441790A6135E20005F95F /* CoreServices.framework */,
+				57A4417A0A6135E20005F95F /* IOKit.framework */,
+				57A4417B0A6135E20005F95F /* OpenGL.framework */,
+				57A4417C0A6135E20005F95F /* QuickTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57A4418C0A6136A00005F95F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				57A4420A0A613F780005F95F /* InfoPlist.strings */,
+				57A4418D0A6136BF0005F95F /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		57A4421D0A61404F0005F95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A442210A61404F0005F95F /* libjucedebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57A442230A6140620005F95F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57A442270A6140620005F95F /* libejucedebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D0C4E8A0486CD37000505A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F48AC0A6123DD00D2C579 /* AngelJuice.h in Headers */,
+				577F48AE0A6123DD00D2C579 /* AngelJuice_command.h in Headers */,
+				577F48B00A6123DD00D2C579 /* AngelJuice_config.h in Headers */,
+				577F48B30A6123DD00D2C579 /* AngelJuice_window.h in Headers */,
+				577F48B50A6123DD00D2C579 /* AngelJuice_OpenDocument.h in Headers */,
+				577F48B60A6123DD00D2C579 /* AngelJuice_SyntaxLexer.h in Headers */,
+				577F48B80A6123DD00D2C579 /* AngelJuice_TabbedEditor.h in Headers */,
+				577F48BA0A6123DD00D2C579 /* AngelJuice_AboutPage.h in Headers */,
+				577F48BB0A6123DD00D2C579 /* AngelJuice_ColourEditor.h in Headers */,
+				577F48BD0A6123DD00D2C579 /* AngelJuice_CompilerPage.h in Headers */,
+				577F48BF0A6123DD00D2C579 /* AngelJuice_FontsPage.h in Headers */,
+				577F48C10A6123DD00D2C579 /* AngelJuice_OptionWindow.h in Headers */,
+				577F48C30A6123DD00D2C579 /* AngelJuice_Resource.h in Headers */,
+				577F48E70A6123DD00D2C579 /* AngelJuice_CallstackOutput.h in Headers */,
+				577F48E90A6123DD00D2C579 /* AngelJuice_DebugOutput.h in Headers */,
+				577F48EB0A6123DD00D2C579 /* AngelJuice_SearchComponent.h in Headers */,
+				577F48ED0A6123DD00D2C579 /* AngelJuice_StatusBar.h in Headers */,
+				577F48EF0A6123DD00D2C579 /* AngelJuice_TabbedSupport.h in Headers */,
+				577F48F10A6123DD00D2C579 /* AngelJuice_Toolbar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D0C4E890486CD37000505A6 /* angeljuice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CFBCCB085F14F000C52F85 /* Build configuration list for PBXNativeTarget "angeljuice" */;
+			buildPhases = (
+				8D0C4E8A0486CD37000505A6 /* Headers */,
+				8D0C4E8C0486CD37000505A6 /* Resources */,
+				8D0C4E8F0486CD37000505A6 /* Sources */,
+				8D0C4E910486CD37000505A6 /* Frameworks */,
+				8D0C4E940486CD37000505A6 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = angeljuice;
+			productInstallPath = "$(HOME)/Applications";
+			productName = jucedemo;
+			productReference = 57A43EF70A6130E30005F95F /* angeljuice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 84CFBCCF085F14F000C52F85 /* Build configuration list for PBXProject "angeljuice" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 20286C29FDCF999611CA2CEA /* jucedemo */;
+			productRefGroup = 57A43EF80A6130E30005F95F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 57A442230A6140620005F95F /* Products */;
+					ProjectRef = 57A442220A6140620005F95F /* EJUCE.xcodeproj */;
+				},
+				{
+					ProductGroup = 57A4421D0A61404F0005F95F /* Products */;
+					ProjectRef = 57A4421C0A61404F0005F95F /* Juce.xcodeproj */;
+				},
+			);
+			targets = (
+				8D0C4E890486CD37000505A6 /* angeljuice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		57A442210A61404F0005F95F /* libjucedebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjucedebug.a;
+			remoteRef = 57A442200A61404F0005F95F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		57A442270A6140620005F95F /* libejucedebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libejucedebug.a;
+			remoteRef = 57A442260A6140620005F95F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D0C4E8C0486CD37000505A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57A441A40A61382E0005F95F /* juce.xcconfig in Resources */,
+				57A4420C0A613F780005F95F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		8D0C4E940486CD37000505A6 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0C4E8F0486CD37000505A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577F48AB0A6123DD00D2C579 /* AngelJuice.cpp in Sources */,
+				577F48AD0A6123DD00D2C579 /* AngelJuice_command.cpp in Sources */,
+				577F48AF0A6123DD00D2C579 /* AngelJuice_config.cpp in Sources */,
+				577F48B10A6123DD00D2C579 /* AngelJuice_main.cpp in Sources */,
+				577F48B20A6123DD00D2C579 /* AngelJuice_window.cpp in Sources */,
+				577F48B40A6123DD00D2C579 /* AngelJuice_OpenDocument.cpp in Sources */,
+				577F48B70A6123DD00D2C579 /* AngelJuice_TabbedEditor.cpp in Sources */,
+				577F48B90A6123DD00D2C579 /* AngelJuice_AboutPage.cpp in Sources */,
+				577F48BC0A6123DD00D2C579 /* AngelJuice_CompilerPage.cpp in Sources */,
+				577F48BE0A6123DD00D2C579 /* AngelJuice_FontsPage.cpp in Sources */,
+				577F48C00A6123DD00D2C579 /* AngelJuice_OptionWindow.cpp in Sources */,
+				577F48C20A6123DD00D2C579 /* AngelJuice_Resource.cpp in Sources */,
+				577F48E60A6123DD00D2C579 /* AngelJuice_CallstackOutput.cpp in Sources */,
+				577F48E80A6123DD00D2C579 /* AngelJuice_DebugOutput.cpp in Sources */,
+				577F48EA0A6123DD00D2C579 /* AngelJuice_SearchComponent.cpp in Sources */,
+				577F48EC0A6123DD00D2C579 /* AngelJuice_StatusBar.cpp in Sources */,
+				577F48EE0A6123DD00D2C579 /* AngelJuice_TabbedSupport.cpp in Sources */,
+				577F48F00A6123DD00D2C579 /* AngelJuice_Toolbar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57A4420A0A613F780005F95F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57A4420B0A613F780005F95F /* English */,
+			);
+			name = InfoPlist.strings;
+			path = English.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CFBCCC085F14F000C52F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+				);
+				GCC_VERSION_ppc = 3.3;
+				HEADER_SEARCH_PATHS = "$(SYSTEM_DEVELOPER_DIR)/Headers/FlatCarbon";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					../../../../bin,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../bin\"";
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
+				OTHER_LD_FLAGS_ppc = "/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/darwin/3.3/libstdc++.a";
+				PRODUCT_NAME = angeljuice;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.4u.sdk;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84CFBCCD085F14F000C52F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+				);
+				GCC_VERSION_ppc = 3.3;
+				HEADER_SEARCH_PATHS = "$(SYSTEM_DEVELOPER_DIR)/Headers/FlatCarbon";
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					../../../../bin,
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../../../bin\"";
+				MACOSX_DEPLOYMENT_TARGET_ppc = 10.4;
+				OTHER_LD_FLAGS_ppc = "/Developer/SDKs/MacOSX10.4u.sdk/usr/lib/gcc/darwin/3.3/libstdc++.a";
+				PRODUCT_NAME = angeljuice;
+				SDKROOT_ppc = /Developer/SDKs/MacOSX10.4u.sdk;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		84CFBCD0085F14F000C52F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_AUTO_VECTORIZATION = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "PPC=1";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = angeljuicedebug;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		84CFBCD1085F14F000C52F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_AUTO_VECTORIZATION = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PREPROCESSOR_DEFINITIONS = "PPC=1";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = angeljuice;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CFBCCB085F14F000C52F85 /* Build configuration list for PBXNativeTarget "angeljuice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CFBCCC085F14F000C52F85 /* Debug */,
+				84CFBCCD085F14F000C52F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		84CFBCCF085F14F000C52F85 /* Build configuration list for PBXProject "angeljuice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CFBCD0085F14F000C52F85 /* Debug */,
+				84CFBCD1085F14F000C52F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}

@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "angeljuice";
+CFBundleShortVersionString = "0.6.1";
+CFBundleGetInfoString = "angeljuice version 0.6.1, Copyright 2006 __MyCompanyName__.";
+NSHumanReadableCopyright = "Copyright 2006 __MyCompanyName__.";

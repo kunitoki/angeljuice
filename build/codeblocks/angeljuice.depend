@@ -1,0 +1,4177 @@
+# depslib dependency file v1.0
+1190830609 source:/home/kororaa/Projects/angeljuice/src/AngelJuice.cpp
+	"AngelJuice.h"
+
+1190831721 /home/kororaa/Projects/angeljuice/src/AngelJuice.h
+	"AngelJuice_config.h"
+	"AngelJuice_command.h"
+	"AngelJuice_window.h"
+	"resources/AngelJuice_Resource.h"
+	"scripting/AngelJuice_ScriptablePlugin.h"
+	"scripting/AngelJuice_ScriptableEngine.h"
+	"document/AngelJuice_TabbedEditor.h"
+	"document/AngelJuice_ProjectTree.h"
+	"document/AngelJuice_OpenDocument.h"
+	"support/AngelJuice_Toolbar.h"
+	"support/AngelJuice_TabbedSupport.h"
+	"support/AngelJuice_StatusBar.h"
+	"options/AngelJuice_OptionWindow.h"
+
+1183319321 /home/kororaa/Projects/angeljuice/src/AngelJuice_config.h
+	"juce.h"
+	"utils/AngelJuice_CommandLineTokenizer.h"
+	"utils/AngelJuice_InternetUpdateChecker.h"
+	"utils/AngelJuice_AngelicLookAndFeel.h"
+
+1190878944 /home/kororaa/Projects/juce/juce.h
+	"src/juce_core/basics/juce_StandardHeader.h"
+	"src/juce_core_includes.h"
+	"src/juce_app_includes.h"
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_StandardHeader.h
+	"../../../juce_Config.h"
+	"juce_PlatformDefs.h"
+	<cstdlib>
+	<cstdarg>
+	<climits>
+	<cmath>
+	<cwchar>
+	<stdexcept>
+	<typeinfo>
+	<pthread.h>
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	<crtdbg.h>
+	"juce_Memory.h"
+	"juce_MathsFunctions.h"
+	"juce_DataConversions.h"
+	"juce_Logger.h"
+
+1190878944 /home/kororaa/Projects/juce/juce_Config.h
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_PlatformDefs.h
+	<CoreServices/CoreServices.h>
+
+1157669048 /usr/include/pthread.h
+	<features.h>
+	<sched.h>
+	<time.h>
+	<signal.h>
+	<bits/pthreadtypes.h>
+	<bits/setjmp.h>
+	<bits/wordsize.h>
+
+1157669048 /usr/include/features.h
+	<sys/cdefs.h>
+	<gnu/stubs.h>
+
+1157669048 /usr/include/sys/cdefs.h
+	<features.h>
+	<bits/wordsize.h>
+
+1157669048 /usr/include/bits/wordsize.h
+
+1157669048 /usr/include/gnu/stubs.h
+	<bits/wordsize.h>
+	<gnu/stubs-32.h>
+	<gnu/stubs-64.h>
+
+1157669048 /usr/include/gnu/stubs-32.h
+
+1157669048 /usr/include/sched.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<bits/sched.h>
+
+1157669048 /usr/include/bits/types.h
+	<features.h>
+	<bits/wordsize.h>
+	<stddef.h>
+	<bits/typesizes.h>
+
+1157669048 /usr/include/bits/typesizes.h
+
+1157669048 /usr/include/time.h
+	<features.h>
+	<stddef.h>
+	<bits/time.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<bits/types.h>
+	<xlocale.h>
+
+1157669048 /usr/include/bits/time.h
+	<bits/types.h>
+	<bits/types.h>
+
+1157669048 /usr/include/xlocale.h
+
+1157669048 /usr/include/bits/sched.h
+
+1157669048 /usr/include/signal.h
+	<features.h>
+	<bits/sigset.h>
+	<bits/types.h>
+	<bits/signum.h>
+	<time.h>
+	<bits/siginfo.h>
+	<bits/sigaction.h>
+	<bits/sigcontext.h>
+	<bits/sigstack.h>
+	<sys/ucontext.h>
+	<bits/pthreadtypes.h>
+	<bits/sigthread.h>
+
+1157669048 /usr/include/bits/sigset.h
+
+1157669048 /usr/include/bits/signum.h
+
+1157669048 /usr/include/bits/siginfo.h
+	<bits/wordsize.h>
+
+1157669048 /usr/include/bits/sigaction.h
+
+1157669048 /usr/include/bits/sigcontext.h
+	<asm/sigcontext.h>
+
+1158102129 /usr/include/asm/sigcontext.h
+	<linux/compiler.h>
+
+1158102129 /usr/include/linux/compiler.h
+	<linux/compiler-gcc+.h>
+	<linux/compiler-gcc3.h>
+	<linux/compiler-gcc2.h>
+	<linux/compiler-intel.h>
+
+1158102129 /usr/include/linux/compiler-gcc+.h
+	<linux/compiler-gcc.h>
+
+1158102129 /usr/include/linux/compiler-gcc.h
+
+1158102129 /usr/include/linux/compiler-gcc3.h
+	<linux/compiler-gcc.h>
+
+1158102129 /usr/include/linux/compiler-gcc2.h
+	<linux/compiler-gcc.h>
+
+1158102129 /usr/include/linux/compiler-intel.h
+	<asm/intrinsics.h>
+
+1157669048 /usr/include/bits/sigstack.h
+
+1157669048 /usr/include/sys/ucontext.h
+	<features.h>
+	<signal.h>
+	<bits/sigcontext.h>
+
+1157669048 /usr/include/bits/pthreadtypes.h
+
+1157669048 /usr/include/bits/sigthread.h
+
+1157669048 /usr/include/bits/setjmp.h
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_Memory.h
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_MathsFunctions.h
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_DataConversions.h
+	"juce_PlatformDefs.h"
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_Logger.h
+	"../text/juce_String.h"
+
+1190878939 /home/kororaa/Projects/juce/src/juce_core/text/juce_String.h
+	"juce_CharacterFunctions.h"
+
+1190878939 /home/kororaa/Projects/juce/src/juce_core/text/juce_CharacterFunctions.h
+
+1190878944 /home/kororaa/Projects/juce/src/juce_core_includes.h
+	"juce_core/basics/juce_Atomic.h"
+	"juce_core/basics/juce_DataConversions.h"
+	"juce_core/basics/juce_FileLogger.h"
+	"juce_core/basics/juce_Initialisation.h"
+	"juce_core/basics/juce_Logger.h"
+	"juce_core/basics/juce_MathsFunctions.h"
+	"juce_core/basics/juce_Memory.h"
+	"juce_core/basics/juce_PlatformDefs.h"
+	"juce_core/basics/juce_Random.h"
+	"juce_core/basics/juce_RelativeTime.h"
+	"juce_core/basics/juce_Singleton.h"
+	"juce_core/basics/juce_StandardHeader.h"
+	"juce_core/basics/juce_SystemStats.h"
+	"juce_core/basics/juce_Time.h"
+	"juce_core/containers/juce_Array.h"
+	"juce_core/containers/juce_ArrayAllocationBase.h"
+	"juce_core/containers/juce_BitArray.h"
+	"juce_core/containers/juce_ElementComparator.h"
+	"juce_core/containers/juce_MemoryBlock.h"
+	"juce_core/containers/juce_OwnedArray.h"
+	"juce_core/containers/juce_PropertySet.h"
+	"juce_core/containers/juce_ReferenceCountedArray.h"
+	"juce_core/containers/juce_ReferenceCountedObject.h"
+	"juce_core/containers/juce_SortedSet.h"
+	"juce_core/containers/juce_SparseSet.h"
+	"juce_core/containers/juce_VoidArray.h"
+	"juce_core/io/juce_InputStream.h"
+	"juce_core/io/juce_OutputStream.h"
+	"juce_core/io/files/juce_DirectoryIterator.h"
+	"juce_core/io/files/juce_File.h"
+	"juce_core/io/files/juce_FileInputStream.h"
+	"juce_core/io/files/juce_FileOutputStream.h"
+	"juce_core/io/files/juce_FileSearchPath.h"
+	"juce_core/io/files/juce_NamedPipe.h"
+	"juce_core/cryptography/juce_BlowFish.h"
+	"juce_core/cryptography/juce_MD5.h"
+	"juce_core/cryptography/juce_Primes.h"
+	"juce_core/cryptography/juce_RSAKey.h"
+	"juce_core/io/network/juce_Socket.h"
+	"juce_core/io/network/juce_URL.h"
+	"juce_core/io/streams/juce_BufferedInputStream.h"
+	"juce_core/io/streams/juce_GZIPCompressorOutputStream.h"
+	"juce_core/io/streams/juce_GZIPDecompressorInputStream.h"
+	"juce_core/io/streams/juce_MemoryInputStream.h"
+	"juce_core/io/streams/juce_MemoryOutputStream.h"
+	"juce_core/io/streams/juce_SubregionStream.h"
+	"juce_core/misc/juce_PerformanceCounter.h"
+	"juce_core/misc/juce_PlatformUtilities.h"
+	"juce_core/misc/juce_Uuid.h"
+	"juce_core/misc/juce_ZipFile.h"
+	"juce_core/text/juce_CharacterFunctions.h"
+	"juce_core/text/juce_LocalisedStrings.h"
+	"juce_core/text/juce_String.h"
+	"juce_core/text/juce_StringArray.h"
+	"juce_core/text/juce_StringPairArray.h"
+	"juce_core/text/juce_XmlDocument.h"
+	"juce_core/text/juce_XmlElement.h"
+	"juce_core/threads/juce_CriticalSection.h"
+	"juce_core/threads/juce_InterProcessLock.h"
+	"juce_core/threads/juce_Process.h"
+	"juce_core/threads/juce_ReadWriteLock.h"
+	"juce_core/threads/juce_ScopedLock.h"
+	"juce_core/threads/juce_ScopedReadLock.h"
+	"juce_core/threads/juce_ScopedWriteLock.h"
+	"juce_core/threads/juce_Thread.h"
+	"juce_core/threads/juce_ThreadPool.h"
+	"juce_core/threads/juce_TimeSliceThread.h"
+	"juce_core/threads/juce_WaitableEvent.h"
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_Atomic.h
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_FileLogger.h
+	"juce_Logger.h"
+	"../io/files/juce_File.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/io/files/juce_File.h
+	"../../containers/juce_OwnedArray.h"
+	"../../basics/juce_Time.h"
+	"../../text/juce_StringArray.h"
+	"../../containers/juce_MemoryBlock.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_OwnedArray.h
+	"juce_ArrayAllocationBase.h"
+	"juce_ElementComparator.h"
+	"../threads/juce_CriticalSection.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_ArrayAllocationBase.h
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_ElementComparator.h
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_CriticalSection.h
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_Time.h
+	"juce_RelativeTime.h"
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_RelativeTime.h
+	"../text/juce_String.h"
+
+1190878939 /home/kororaa/Projects/juce/src/juce_core/text/juce_StringArray.h
+	"juce_String.h"
+	"../containers/juce_VoidArray.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_VoidArray.h
+	"juce_Array.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_Array.h
+	"juce_ArrayAllocationBase.h"
+	"juce_ElementComparator.h"
+	"../threads/juce_CriticalSection.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_MemoryBlock.h
+	"../text/juce_String.h"
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_Initialisation.h
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_Random.h
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_Singleton.h
+	"../threads/juce_ScopedLock.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_ScopedLock.h
+	"juce_CriticalSection.h"
+
+1190878938 /home/kororaa/Projects/juce/src/juce_core/basics/juce_SystemStats.h
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_BitArray.h
+	"../text/juce_String.h"
+	"juce_Array.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_PropertySet.h
+	"../text/juce_StringPairArray.h"
+	"../text/juce_XmlElement.h"
+
+1190878939 /home/kororaa/Projects/juce/src/juce_core/text/juce_StringPairArray.h
+	"juce_StringArray.h"
+
+1190878939 /home/kororaa/Projects/juce/src/juce_core/text/juce_XmlElement.h
+	"juce_String.h"
+	"../io/juce_OutputStream.h"
+	"../io/files/juce_File.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/io/juce_OutputStream.h
+	"../text/juce_String.h"
+	"juce_InputStream.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/io/juce_InputStream.h
+	"../text/juce_String.h"
+	"../containers/juce_MemoryBlock.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_ReferenceCountedArray.h
+	"juce_ReferenceCountedObject.h"
+	"juce_ArrayAllocationBase.h"
+	"juce_ElementComparator.h"
+	"../threads/juce_CriticalSection.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_ReferenceCountedObject.h
+	"../basics/juce_Atomic.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_SortedSet.h
+	"juce_ArrayAllocationBase.h"
+	"../threads/juce_CriticalSection.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/containers/juce_SparseSet.h
+	"juce_ArrayAllocationBase.h"
+	"../threads/juce_CriticalSection.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/io/files/juce_DirectoryIterator.h
+	"juce_File.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/io/files/juce_FileInputStream.h
+	"juce_File.h"
+	"../juce_InputStream.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/io/files/juce_FileOutputStream.h
+	"juce_File.h"
+	"../juce_OutputStream.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/io/files/juce_FileSearchPath.h
+	"juce_File.h"
+	"../../text/juce_StringArray.h"
+
+1190878940 /home/kororaa/Projects/juce/src/juce_core/io/files/juce_NamedPipe.h
+	"../juce_OutputStream.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/cryptography/juce_BlowFish.h
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/cryptography/juce_MD5.h
+	"../containers/juce_MemoryBlock.h"
+	"../io/juce_InputStream.h"
+	"../io/files/juce_File.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/cryptography/juce_Primes.h
+	"../containers/juce_BitArray.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/cryptography/juce_RSAKey.h
+	"../containers/juce_BitArray.h"
+
+1190878941 /home/kororaa/Projects/juce/src/juce_core/io/network/juce_Socket.h
+	"../../text/juce_String.h"
+
+1190878941 /home/kororaa/Projects/juce/src/juce_core/io/network/juce_URL.h
+	"../../text/juce_StringPairArray.h"
+	"../../text/juce_XmlElement.h"
+	"../juce_InputStream.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/io/streams/juce_BufferedInputStream.h
+	"../juce_InputStream.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/io/streams/juce_GZIPCompressorOutputStream.h
+	"../juce_OutputStream.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/io/streams/juce_GZIPDecompressorInputStream.h
+	"../juce_InputStream.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/io/streams/juce_MemoryInputStream.h
+	"../juce_InputStream.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/io/streams/juce_MemoryOutputStream.h
+	"../juce_OutputStream.h"
+	"../../containers/juce_MemoryBlock.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/io/streams/juce_SubregionStream.h
+	"../juce_InputStream.h"
+
+1190878944 /home/kororaa/Projects/juce/src/juce_core/misc/juce_PerformanceCounter.h
+	"../io/files/juce_File.h"
+
+1190878944 /home/kororaa/Projects/juce/src/juce_core/misc/juce_PlatformUtilities.h
+	"../text/juce_StringArray.h"
+
+1190878944 /home/kororaa/Projects/juce/src/juce_core/misc/juce_Uuid.h
+	"../text/juce_String.h"
+
+1190878944 /home/kororaa/Projects/juce/src/juce_core/misc/juce_ZipFile.h
+	"../io/files/juce_File.h"
+	"../io/juce_InputStream.h"
+	"../threads/juce_CriticalSection.h"
+
+1190878939 /home/kororaa/Projects/juce/src/juce_core/text/juce_LocalisedStrings.h
+	"juce_StringPairArray.h"
+	"../basics/juce_Singleton.h"
+	"../io/files/juce_File.h"
+
+1190878939 /home/kororaa/Projects/juce/src/juce_core/text/juce_XmlDocument.h
+	"juce_XmlElement.h"
+	"juce_StringArray.h"
+	"../io/files/juce_File.h"
+	"../io/juce_InputStream.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_InterProcessLock.h
+	"../text/juce_String.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_Process.h
+	"../text/juce_String.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_ReadWriteLock.h
+	"juce_CriticalSection.h"
+	"juce_WaitableEvent.h"
+	"../containers/juce_Array.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_WaitableEvent.h
+	"../text/juce_String.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_ScopedReadLock.h
+	"juce_ReadWriteLock.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_ScopedWriteLock.h
+	"juce_ReadWriteLock.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_Thread.h
+	"juce_WaitableEvent.h"
+	"juce_CriticalSection.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_ThreadPool.h
+	"juce_Thread.h"
+	"juce_ScopedLock.h"
+	"../text/juce_StringArray.h"
+	"../containers/juce_VoidArray.h"
+
+1190878943 /home/kororaa/Projects/juce/src/juce_core/threads/juce_TimeSliceThread.h
+	"juce_Thread.h"
+	"../containers/juce_Array.h"
+
+1190878944 /home/kororaa/Projects/juce/src/juce_app_includes.h
+	"juce_appframework/application/juce_Application.h"
+	"juce_appframework/application/juce_ApplicationCommandID.h"
+	"juce_appframework/application/juce_ApplicationCommandInfo.h"
+	"juce_appframework/application/juce_ApplicationCommandManager.h"
+	"juce_appframework/application/juce_ApplicationCommandTarget.h"
+	"juce_appframework/application/juce_ApplicationProperties.h"
+	"juce_appframework/application/juce_DeletedAtShutdown.h"
+	"juce_appframework/application/juce_PropertiesFile.h"
+	"juce_appframework/application/juce_SystemClipboard.h"
+	"juce_appframework/audio/midi/juce_MidiBuffer.h"
+	"juce_appframework/audio/midi/juce_MidiFile.h"
+	"juce_appframework/audio/midi/juce_MidiKeyboardState.h"
+	"juce_appframework/audio/midi/juce_MidiMessage.h"
+	"juce_appframework/audio/midi/juce_MidiMessageCollector.h"
+	"juce_appframework/audio/midi/juce_MidiMessageSequence.h"
+	"juce_appframework/audio/dsp/juce_AudioDataConverters.h"
+	"juce_appframework/audio/dsp/juce_AudioSampleBuffer.h"
+	"juce_appframework/audio/dsp/juce_IIRFilter.h"
+	"juce_appframework/audio/processors/juce_AudioPlayHead.h"
+	"juce_appframework/audio/processors/juce_AudioProcessor.h"
+	"juce_appframework/audio/processors/juce_AudioProcessorEditor.h"
+	"juce_appframework/audio/processors/juce_AudioProcessorListener.h"
+	"juce_appframework/audio/processors/juce_GenericAudioProcessorEditor.h"
+	"juce_appframework/audio/audio_sources/juce_AudioFormatReaderSource.h"
+	"juce_appframework/audio/audio_sources/juce_AudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_AudioSourcePlayer.h"
+	"juce_appframework/audio/audio_sources/juce_AudioTransportSource.h"
+	"juce_appframework/audio/audio_sources/juce_BufferingAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_ChannelRemappingAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_IIRFilterAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_MixerAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_PositionableAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_ResamplingAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_ToneGeneratorAudioSource.h"
+	"juce_appframework/audio/devices/juce_AudioDeviceManager.h"
+	"juce_appframework/audio/devices/juce_AudioIODevice.h"
+	"juce_appframework/audio/devices/juce_AudioIODeviceType.h"
+	"juce_appframework/audio/devices/juce_MidiInput.h"
+	"juce_appframework/audio/devices/juce_MidiOutput.h"
+	"juce_appframework/audio/synthesisers/juce_Sampler.h"
+	"juce_appframework/audio/synthesisers/juce_Synthesiser.h"
+	"juce_appframework/audio/audio_file_formats/juce_AiffAudioFormat.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioCDReader.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioFormat.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioFormatManager.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioFormatReader.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioFormatWriter.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioSubsectionReader.h"
+	"juce_appframework/audio/audio_file_formats/juce_FlacAudioFormat.h"
+	"juce_appframework/audio/audio_file_formats/juce_OggVorbisAudioFormat.h"
+	"juce_appframework/audio/audio_file_formats/juce_WavAudioFormat.h"
+	"juce_appframework/events/juce_ActionBroadcaster.h"
+	"juce_appframework/events/juce_ActionListener.h"
+	"juce_appframework/events/juce_ActionListenerList.h"
+	"juce_appframework/events/juce_AsyncUpdater.h"
+	"juce_appframework/events/juce_ChangeBroadcaster.h"
+	"juce_appframework/events/juce_ChangeListener.h"
+	"juce_appframework/events/juce_ChangeListenerList.h"
+	"juce_appframework/events/juce_InterprocessConnection.h"
+	"juce_appframework/events/juce_InterprocessConnectionServer.h"
+	"juce_appframework/events/juce_Message.h"
+	"juce_appframework/events/juce_MessageListener.h"
+	"juce_appframework/events/juce_MessageManager.h"
+	"juce_appframework/events/juce_MultiTimer.h"
+	"juce_appframework/events/juce_Timer.h"
+	"juce_appframework/gui/graphics/brushes/juce_Brush.h"
+	"juce_appframework/gui/graphics/brushes/juce_GradientBrush.h"
+	"juce_appframework/gui/graphics/brushes/juce_ImageBrush.h"
+	"juce_appframework/gui/graphics/brushes/juce_SolidColourBrush.h"
+	"juce_appframework/gui/graphics/colour/juce_Colour.h"
+	"juce_appframework/gui/graphics/colour/juce_ColourGradient.h"
+	"juce_appframework/gui/graphics/colour/juce_Colours.h"
+	"juce_appframework/gui/graphics/colour/juce_PixelFormats.h"
+	"juce_appframework/gui/graphics/fonts/juce_Font.h"
+	"juce_appframework/gui/graphics/fonts/juce_GlyphArrangement.h"
+	"juce_appframework/gui/graphics/fonts/juce_TextLayout.h"
+	"juce_appframework/gui/graphics/fonts/juce_Typeface.h"
+	"juce_appframework/gui/graphics/contexts/juce_EdgeTable.h"
+	"juce_appframework/gui/graphics/contexts/juce_Graphics.h"
+	"juce_appframework/gui/graphics/contexts/juce_Justification.h"
+	"juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsContext.h"
+	"juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsPostScriptRenderer.h"
+	"juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsSoftwareRenderer.h"
+	"juce_appframework/gui/graphics/contexts/juce_RectanglePlacement.h"
+	"juce_appframework/gui/graphics/geometry/juce_AffineTransform.h"
+	"juce_appframework/gui/graphics/geometry/juce_BorderSize.h"
+	"juce_appframework/gui/graphics/geometry/juce_Line.h"
+	"juce_appframework/gui/graphics/geometry/juce_Path.h"
+	"juce_appframework/gui/graphics/geometry/juce_PathIterator.h"
+	"juce_appframework/gui/graphics/geometry/juce_PathStrokeType.h"
+	"juce_appframework/gui/graphics/geometry/juce_Point.h"
+	"juce_appframework/gui/graphics/geometry/juce_PositionedRectangle.h"
+	"juce_appframework/gui/graphics/geometry/juce_Rectangle.h"
+	"juce_appframework/gui/graphics/geometry/juce_RectangleList.h"
+	"juce_appframework/gui/graphics/imaging/juce_Image.h"
+	"juce_appframework/gui/graphics/imaging/juce_ImageCache.h"
+	"juce_appframework/gui/graphics/imaging/juce_ImageConvolutionKernel.h"
+	"juce_appframework/gui/graphics/imaging/juce_ImageFileFormat.h"
+	"juce_appframework/gui/graphics/drawables/juce_Drawable.h"
+	"juce_appframework/gui/graphics/drawables/juce_DrawableComposite.h"
+	"juce_appframework/gui/graphics/drawables/juce_DrawableImage.h"
+	"juce_appframework/gui/graphics/drawables/juce_DrawablePath.h"
+	"juce_appframework/gui/graphics/drawables/juce_DrawableText.h"
+	"juce_appframework/gui/components/juce_Component.h"
+	"juce_appframework/gui/components/juce_ComponentDeletionWatcher.h"
+	"juce_appframework/gui/components/juce_ComponentListener.h"
+	"juce_appframework/gui/components/juce_Desktop.h"
+	"juce_appframework/gui/components/buttons/juce_ArrowButton.h"
+	"juce_appframework/gui/components/buttons/juce_Button.h"
+	"juce_appframework/gui/components/buttons/juce_DrawableButton.h"
+	"juce_appframework/gui/components/buttons/juce_HyperlinkButton.h"
+	"juce_appframework/gui/components/buttons/juce_ImageButton.h"
+	"juce_appframework/gui/components/buttons/juce_ShapeButton.h"
+	"juce_appframework/gui/components/buttons/juce_TextButton.h"
+	"juce_appframework/gui/components/buttons/juce_ToggleButton.h"
+	"juce_appframework/gui/components/buttons/juce_ToolbarButton.h"
+	"juce_appframework/gui/graphics/effects/juce_DropShadowEffect.h"
+	"juce_appframework/gui/graphics/effects/juce_GlowEffect.h"
+	"juce_appframework/gui/graphics/effects/juce_ImageEffectFilter.h"
+	"juce_appframework/gui/graphics/effects/juce_ReduceOpacityEffect.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyboardFocusTraverser.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyListener.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyMappingEditorComponent.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyPress.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyPressMappingSet.h"
+	"juce_appframework/gui/components/keyboard/juce_ModifierKeys.h"
+	"juce_appframework/gui/components/menus/juce_MenuBarComponent.h"
+	"juce_appframework/gui/components/menus/juce_MenuBarModel.h"
+	"juce_appframework/gui/components/menus/juce_PopupMenu.h"
+	"juce_appframework/gui/components/menus/juce_PopupMenuCustomComponent.h"
+	"juce_appframework/gui/components/mouse/juce_ComponentDragger.h"
+	"juce_appframework/gui/components/mouse/juce_DragAndDropContainer.h"
+	"juce_appframework/gui/components/mouse/juce_DragAndDropTarget.h"
+	"juce_appframework/gui/components/mouse/juce_FileDragAndDropTarget.h"
+	"juce_appframework/gui/components/mouse/juce_LassoComponent.h"
+	"juce_appframework/gui/components/mouse/juce_MouseCursor.h"
+	"juce_appframework/gui/components/mouse/juce_MouseEvent.h"
+	"juce_appframework/gui/components/mouse/juce_MouseHoverDetector.h"
+	"juce_appframework/gui/components/mouse/juce_MouseListener.h"
+	"juce_appframework/gui/components/mouse/juce_TooltipClient.h"
+	"juce_appframework/gui/components/controls/juce_ComboBox.h"
+	"juce_appframework/gui/components/controls/juce_Label.h"
+	"juce_appframework/gui/components/controls/juce_ListBox.h"
+	"juce_appframework/gui/components/controls/juce_ProgressBar.h"
+	"juce_appframework/gui/components/controls/juce_Slider.h"
+	"juce_appframework/gui/components/controls/juce_SliderListener.h"
+	"juce_appframework/gui/components/controls/juce_TableHeaderComponent.h"
+	"juce_appframework/gui/components/controls/juce_TableListBox.h"
+	"juce_appframework/gui/components/controls/juce_TextEditor.h"
+	"juce_appframework/gui/components/controls/juce_Toolbar.h"
+	"juce_appframework/gui/components/controls/juce_ToolbarItemComponent.h"
+	"juce_appframework/gui/components/controls/juce_ToolbarItemFactory.h"
+	"juce_appframework/gui/components/controls/juce_ToolbarItemPalette.h"
+	"juce_appframework/gui/components/controls/juce_TreeView.h"
+	"juce_appframework/gui/components/properties/juce_BooleanPropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_ButtonPropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_ChoicePropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_PropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_PropertyPanel.h"
+	"juce_appframework/gui/components/properties/juce_SliderPropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_TextPropertyComponent.h"
+	"juce_appframework/gui/components/layout/juce_ComponentAnimator.h"
+	"juce_appframework/gui/components/layout/juce_ComponentBoundsConstrainer.h"
+	"juce_appframework/gui/components/layout/juce_ComponentMovementWatcher.h"
+	"juce_appframework/gui/components/layout/juce_GroupComponent.h"
+	"juce_appframework/gui/components/layout/juce_MultiDocumentPanel.h"
+	"juce_appframework/gui/components/layout/juce_ResizableBorderComponent.h"
+	"juce_appframework/gui/components/layout/juce_ResizableCornerComponent.h"
+	"juce_appframework/gui/components/layout/juce_ScrollBar.h"
+	"juce_appframework/gui/components/layout/juce_StretchableLayoutManager.h"
+	"juce_appframework/gui/components/layout/juce_StretchableLayoutResizerBar.h"
+	"juce_appframework/gui/components/layout/juce_StretchableObjectResizer.h"
+	"juce_appframework/gui/components/layout/juce_TabbedButtonBar.h"
+	"juce_appframework/gui/components/layout/juce_TabbedComponent.h"
+	"juce_appframework/gui/components/layout/juce_Viewport.h"
+	"juce_appframework/gui/components/filebrowser/juce_DirectoryContentsDisplayComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_DirectoryContentsList.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileBrowserComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileBrowserListener.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileChooser.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileChooserDialogBox.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileFilter.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileListComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FilenameComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FilePreviewComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileSearchPathListComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileTreeComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_ImagePreviewComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_WildcardFileFilter.h"
+	"juce_appframework/gui/components/windows/juce_AlertWindow.h"
+	"juce_appframework/gui/components/windows/juce_ComponentPeer.h"
+	"juce_appframework/gui/components/windows/juce_DialogWindow.h"
+	"juce_appframework/gui/components/windows/juce_DocumentWindow.h"
+	"juce_appframework/gui/components/windows/juce_ResizableWindow.h"
+	"juce_appframework/gui/components/windows/juce_SplashScreen.h"
+	"juce_appframework/gui/components/windows/juce_ThreadWithProgressWindow.h"
+	"juce_appframework/gui/components/windows/juce_TooltipWindow.h"
+	"juce_appframework/gui/components/windows/juce_TopLevelWindow.h"
+	"juce_appframework/gui/components/special/juce_ActiveXControlComponent.h"
+	"juce_appframework/gui/components/special/juce_AudioDeviceSelectorComponent.h"
+	"juce_appframework/gui/components/special/juce_BubbleComponent.h"
+	"juce_appframework/gui/components/special/juce_BubbleMessageComponent.h"
+	"juce_appframework/gui/components/special/juce_ColourSelector.h"
+	"juce_appframework/gui/components/special/juce_DropShadower.h"
+	"juce_appframework/gui/components/special/juce_MagnifierComponent.h"
+	"juce_appframework/gui/components/special/juce_MidiKeyboardComponent.h"
+	"juce_appframework/gui/components/special/juce_OpenGLComponent.h"
+	"juce_appframework/gui/components/special/juce_PreferencesPanel.h"
+	"juce_appframework/gui/components/special/juce_QuickTimeMovieComponent.h"
+	"juce_appframework/gui/components/special/juce_SystemTrayIconComponent.h"
+	"juce_appframework/gui/components/lookandfeel/juce_LookAndFeel.h"
+	"juce_appframework/gui/components/lookandfeel/juce_OldSchoolLookAndFeel.h"
+	"juce_appframework/documents/juce_FileBasedDocument.h"
+	"juce_appframework/documents/juce_RecentlyOpenedFilesList.h"
+	"juce_appframework/documents/juce_SelectedItemSet.h"
+	"juce_appframework/documents/juce_UndoableAction.h"
+	"juce_appframework/documents/juce_UndoManager.h"
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_Application.h
+	"juce_ApplicationCommandTarget.h"
+	"../events/juce_ActionListener.h"
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_ApplicationCommandTarget.h
+	"../gui/components/juce_Component.h"
+	"juce_ApplicationCommandInfo.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/juce_Component.h
+	"mouse/juce_MouseCursor.h"
+	"mouse/juce_MouseListener.h"
+	"juce_ComponentListener.h"
+	"keyboard/juce_KeyListener.h"
+	"keyboard/juce_KeyboardFocusTraverser.h"
+	"../graphics/effects/juce_ImageEffectFilter.h"
+	"../graphics/geometry/juce_RectangleList.h"
+	"../graphics/geometry/juce_BorderSize.h"
+	"windows/juce_ComponentPeer.h"
+	"../../events/juce_MessageListener.h"
+	"../../../juce_core/text/juce_StringArray.h"
+	"../../../juce_core/containers/juce_VoidArray.h"
+	"../../../juce_core/containers/juce_PropertySet.h"
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_MouseCursor.h
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_MouseListener.h
+	"juce_MouseEvent.h"
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_MouseEvent.h
+	"../keyboard/juce_ModifierKeys.h"
+	"../../../../juce_core/basics/juce_Time.h"
+
+1190878933 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/keyboard/juce_ModifierKeys.h
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/juce_ComponentListener.h
+
+1190878933 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/keyboard/juce_KeyListener.h
+	"juce_KeyPress.h"
+
+1190878933 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/keyboard/juce_KeyPress.h
+	"juce_ModifierKeys.h"
+	"../../../../juce_core/text/juce_String.h"
+
+1190878933 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/keyboard/juce_KeyboardFocusTraverser.h
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/effects/juce_ImageEffectFilter.h
+	"../../graphics/contexts/juce_Graphics.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/contexts/juce_Graphics.h
+	"../fonts/juce_Font.h"
+	"../geometry/juce_Rectangle.h"
+	"../geometry/juce_PathStrokeType.h"
+	"../geometry/juce_Line.h"
+	"../colour/juce_Colours.h"
+	"../brushes/juce_SolidColourBrush.h"
+	"juce_RectanglePlacement.h"
+
+1190878919 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/fonts/juce_Font.h
+	"juce_Typeface.h"
+	"../geometry/juce_Path.h"
+	"../../../../juce_core/text/juce_StringArray.h"
+	"../../../../juce_core/containers/juce_ReferenceCountedObject.h"
+	"../../../../juce_core/containers/juce_OwnedArray.h"
+
+1190878919 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/fonts/juce_Typeface.h
+	"../../../../juce_core/containers/juce_ReferenceCountedObject.h"
+	"../../../../juce_core/containers/juce_VoidArray.h"
+	"../../../../juce_core/io/juce_InputStream.h"
+	"../../../../juce_core/io/juce_OutputStream.h"
+	"../geometry/juce_Path.h"
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_Path.h
+	"juce_AffineTransform.h"
+	"juce_Point.h"
+	"../contexts/juce_Justification.h"
+	"../../../../juce_core/containers/juce_Array.h"
+	"../../../../juce_core/io/juce_InputStream.h"
+	"../../../../juce_core/io/juce_OutputStream.h"
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_AffineTransform.h
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_Point.h
+	"juce_AffineTransform.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/contexts/juce_Justification.h
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_Rectangle.h
+	"../../../../juce_core/text/juce_String.h"
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_PathStrokeType.h
+	"juce_Path.h"
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_Line.h
+	"juce_Path.h"
+	"juce_Point.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/colour/juce_Colours.h
+	"juce_Colour.h"
+	"../../../../juce_core/text/juce_String.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/colour/juce_Colour.h
+	"../colour/juce_PixelFormats.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/colour/juce_PixelFormats.h
+
+1190878919 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/brushes/juce_SolidColourBrush.h
+	"juce_Brush.h"
+	"../colour/juce_Colour.h"
+
+1190878919 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/brushes/juce_Brush.h
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/contexts/juce_RectanglePlacement.h
+	"../geometry/juce_AffineTransform.h"
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_RectangleList.h
+	"juce_Rectangle.h"
+	"juce_Path.h"
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_BorderSize.h
+	"juce_Rectangle.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_ComponentPeer.h
+	"../mouse/juce_MouseCursor.h"
+	"../../../events/juce_MessageListener.h"
+	"../../../../juce_core/text/juce_StringArray.h"
+	"../../graphics/geometry/juce_RectangleList.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_MessageListener.h
+	"juce_Message.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_Message.h
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_ApplicationCommandInfo.h
+	"../../juce_core/text/juce_String.h"
+	"../../juce_core/containers/juce_Array.h"
+	"../gui/components/keyboard/juce_KeyPress.h"
+	"juce_ApplicationCommandID.h"
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_ApplicationCommandID.h
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_ApplicationCommandManager.h
+	"juce_ApplicationCommandTarget.h"
+	"../events/juce_AsyncUpdater.h"
+	"../gui/components/juce_Desktop.h"
+	"../../juce_core/containers/juce_SortedSet.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_AsyncUpdater.h
+	"juce_MessageListener.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/juce_Desktop.h
+	"juce_Component.h"
+	"../../application/juce_DeletedAtShutdown.h"
+	"../../events/juce_Timer.h"
+	"../../events/juce_AsyncUpdater.h"
+	"../../../juce_core/containers/juce_SortedSet.h"
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_DeletedAtShutdown.h
+	"../../juce_core/containers/juce_Array.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_Timer.h
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_PropertiesFile.h
+	"../../juce_core/io/files/juce_File.h"
+	"../../juce_core/containers/juce_PropertySet.h"
+	"../events/juce_Timer.h"
+	"../events/juce_ChangeBroadcaster.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_ChangeBroadcaster.h
+	"juce_ChangeListenerList.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_ChangeListenerList.h
+	"juce_ChangeListener.h"
+	"juce_MessageListener.h"
+	"../../juce_core/containers/juce_SortedSet.h"
+	"../../juce_core/threads/juce_ScopedLock.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_ChangeListener.h
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_SystemClipboard.h
+	"../../juce_core/text/juce_String.h"
+
+1161163152 /home/kororaa/Projects/juce/src/juce_appframework/audio/juce_AudioDataConverters.h
+
+1161163152 /home/kororaa/Projects/juce/src/juce_appframework/audio/juce_AudioSampleBuffer.h
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/midi/juce_MidiBuffer.h
+	"../../../juce_core/containers/juce_ArrayAllocationBase.h"
+	"juce_MidiMessage.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/midi/juce_MidiMessage.h
+	"../../../juce_core/text/juce_String.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/midi/juce_MidiFile.h
+	"juce_MidiMessageSequence.h"
+	"../../../juce_core/io/juce_InputStream.h"
+	"../../../juce_core/io/juce_OutputStream.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/midi/juce_MidiMessageSequence.h
+	"juce_MidiMessage.h"
+	"../../../juce_core/containers/juce_OwnedArray.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/midi/juce_MidiKeyboardState.h
+	"juce_MidiBuffer.h"
+	"../../../juce_core/threads/juce_ScopedLock.h"
+	"../../../juce_core/containers/juce_VoidArray.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/midi/juce_MidiMessageCollector.h
+	"../devices/juce_MidiInput.h"
+	"juce_MidiKeyboardState.h"
+
+1190878890 /home/kororaa/Projects/juce/src/juce_appframework/audio/devices/juce_MidiInput.h
+	"../midi/juce_MidiMessage.h"
+	"../../../juce_core/text/juce_StringArray.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_AudioFormatReaderSource.h
+	"juce_PositionableAudioSource.h"
+	"../../../juce_core/threads/juce_Thread.h"
+	"../audio_file_formats/juce_AudioFormatReader.h"
+	"../dsp/juce_AudioSampleBuffer.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_PositionableAudioSource.h
+	"juce_AudioSource.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_AudioSource.h
+	"../dsp/juce_AudioSampleBuffer.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_AudioFormatReader.h
+	"../../../juce_core/io/juce_InputStream.h"
+	"../../../juce_core/text/juce_StringPairArray.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_AudioSourcePlayer.h
+	"juce_AudioSource.h"
+	"../devices/juce_AudioIODevice.h"
+
+1190878890 /home/kororaa/Projects/juce/src/juce_appframework/audio/devices/juce_AudioIODevice.h
+	"../../../juce_core/text/juce_StringArray.h"
+	"../../../juce_core/containers/juce_BitArray.h"
+	"../../../juce_core/containers/juce_OwnedArray.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_AudioTransportSource.h
+	"juce_BufferingAudioSource.h"
+	"juce_ResamplingAudioSource.h"
+	"../../events/juce_ChangeBroadcaster.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_BufferingAudioSource.h
+	"juce_PositionableAudioSource.h"
+	"../../../juce_core/threads/juce_Thread.h"
+	"../dsp/juce_AudioSampleBuffer.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_ResamplingAudioSource.h
+	"juce_AudioSource.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_MixerAudioSource.h
+	"juce_AudioSource.h"
+	"../../../juce_core/threads/juce_CriticalSection.h"
+	"../../../juce_core/containers/juce_VoidArray.h"
+	"../../../juce_core/containers/juce_BitArray.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_ToneGeneratorAudioSource.h
+	"juce_AudioSource.h"
+
+1190878890 /home/kororaa/Projects/juce/src/juce_appframework/audio/devices/juce_AudioDeviceManager.h
+	"juce_AudioIODeviceType.h"
+	"juce_MidiInput.h"
+	"juce_MidiOutput.h"
+	"../../../juce_core/text/juce_XmlElement.h"
+	"../../gui/components/controls/juce_ComboBox.h"
+
+1190878890 /home/kororaa/Projects/juce/src/juce_appframework/audio/devices/juce_AudioIODeviceType.h
+	"juce_AudioIODevice.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_ComboBox.h
+	"juce_Label.h"
+	"../../../../juce_core/text/juce_StringArray.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_Label.h
+	"../juce_ComponentDeletionWatcher.h"
+	"../../../events/juce_AsyncUpdater.h"
+	"juce_TextEditor.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/juce_ComponentDeletionWatcher.h
+	"juce_Component.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_TextEditor.h
+	"../juce_Component.h"
+	"../../../events/juce_Timer.h"
+	"../../../documents/juce_UndoManager.h"
+	"../layout/juce_Viewport.h"
+	"../menus/juce_PopupMenu.h"
+
+1190878915 /home/kororaa/Projects/juce/src/juce_appframework/documents/juce_UndoManager.h
+	"../../juce_core/text/juce_String.h"
+	"../../juce_core/containers/juce_OwnedArray.h"
+	"../../juce_core/text/juce_StringArray.h"
+	"../events/juce_ChangeBroadcaster.h"
+	"juce_UndoableAction.h"
+
+1190878915 /home/kororaa/Projects/juce/src/juce_appframework/documents/juce_UndoableAction.h
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_Viewport.h
+	"juce_ScrollBar.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_ScrollBar.h
+	"../../../events/juce_AsyncUpdater.h"
+	"../../../events/juce_Timer.h"
+	"../buttons/juce_Button.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_Button.h
+	"../juce_Component.h"
+	"../keyboard/juce_KeyListener.h"
+	"../../../application/juce_ApplicationCommandManager.h"
+	"../../../../juce_core/containers/juce_SortedSet.h"
+	"../windows/juce_TooltipWindow.h"
+	"../../../events/juce_Timer.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_TooltipWindow.h
+	"../juce_Component.h"
+	"../../../events/juce_Timer.h"
+	"../mouse/juce_TooltipClient.h"
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_TooltipClient.h
+
+1190878890 /home/kororaa/Projects/juce/src/juce_appframework/audio/devices/juce_MidiOutput.h
+	"../../../juce_core/text/juce_StringArray.h"
+	"../../../juce_core/threads/juce_Thread.h"
+	"../midi/juce_MidiMessage.h"
+	"../midi/juce_MidiBuffer.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/synthesisers/juce_Sampler.h
+	"../../../juce_core/containers/juce_BitArray.h"
+	"juce_Synthesiser.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/synthesisers/juce_Synthesiser.h
+	"../dsp/juce_AudioSampleBuffer.h"
+	"../midi/juce_MidiBuffer.h"
+	"../../../juce_core/containers/juce_OwnedArray.h"
+	"../../../juce_core/containers/juce_ReferenceCountedObject.h"
+	"../../../juce_core/containers/juce_ReferenceCountedArray.h"
+	"../../../juce_core/threads/juce_CriticalSection.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_AiffAudioFormat.h
+	"juce_AudioFormat.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_AudioFormat.h
+	"juce_AudioFormatReader.h"
+	"juce_AudioFormatWriter.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_AudioFormatWriter.h
+	"../../../juce_core/io/files/juce_FileOutputStream.h"
+	"juce_AudioFormatReader.h"
+	"../audio_sources/juce_AudioSource.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_AudioCDReader.h
+	"juce_AudioFormatReader.h"
+	"../../../juce_core/text/juce_StringArray.h"
+	"../../../juce_core/io/files/juce_File.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_AudioFormatManager.h
+	"juce_AudioFormat.h"
+	"../../../juce_core/basics/juce_Singleton.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_AudioSubsectionReader.h
+	"juce_AudioFormatReader.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_FlacAudioFormat.h
+	"juce_AudioFormat.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_OggVorbisAudioFormat.h
+	"juce_AudioFormat.h"
+
+1190878914 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_file_formats/juce_WavAudioFormat.h
+	"juce_AudioFormat.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_ActionBroadcaster.h
+	"juce_ActionListenerList.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_ActionListenerList.h
+	"juce_ActionListener.h"
+	"juce_MessageListener.h"
+	"../../juce_core/containers/juce_SortedSet.h"
+	"../../juce_core/threads/juce_CriticalSection.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_ActionListener.h
+	"../../juce_core/text/juce_String.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_InterprocessConnection.h
+	"juce_MessageListener.h"
+	"../../juce_core/threads/juce_Thread.h"
+	"../../juce_core/io/network/juce_Socket.h"
+	"../../juce_core/io/files/juce_NamedPipe.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_InterprocessConnectionServer.h
+	"juce_InterprocessConnection.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_MessageManager.h
+	"../application/juce_DeletedAtShutdown.h"
+	"../../juce_core/containers/juce_SortedSet.h"
+	"juce_ActionListenerList.h"
+	"juce_Timer.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/events/juce_MultiTimer.h
+	"juce_Timer.h"
+	"../../juce_core/containers/juce_VoidArray.h"
+
+1190878919 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/brushes/juce_GradientBrush.h
+	"juce_Brush.h"
+	"../colour/juce_ColourGradient.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/colour/juce_ColourGradient.h
+	"juce_Colour.h"
+	"../geometry/juce_AffineTransform.h"
+	"../../../../juce_core/containers/juce_Array.h"
+
+1190878919 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/brushes/juce_ImageBrush.h
+	"juce_Brush.h"
+	"../imaging/juce_Image.h"
+
+1190878926 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/imaging/juce_Image.h
+	"../colour/juce_Colour.h"
+	"../contexts/juce_Graphics.h"
+
+1190878919 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/fonts/juce_GlyphArrangement.h
+	"juce_Font.h"
+	"../contexts/juce_Graphics.h"
+
+1190878919 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/fonts/juce_TextLayout.h
+	"juce_Font.h"
+	"../contexts/juce_Justification.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/contexts/juce_EdgeTable.h
+	"../geometry/juce_AffineTransform.h"
+	"../../../../juce_core/containers/juce_MemoryBlock.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsContext.h
+	"../imaging/juce_Image.h"
+	"../geometry/juce_Path.h"
+	"../geometry/juce_RectangleList.h"
+	"../colour/juce_ColourGradient.h"
+	"juce_EdgeTable.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsPostScriptRenderer.h
+	"juce_LowLevelGraphicsContext.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsSoftwareRenderer.h
+	"juce_LowLevelGraphicsContext.h"
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_PathIterator.h
+	"juce_Path.h"
+
+1190878920 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/geometry/juce_PositionedRectangle.h
+	"../../components/juce_Component.h"
+
+1190878926 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/imaging/juce_ImageCache.h
+	"juce_Image.h"
+	"../../../../juce_core/io/files/juce_File.h"
+	"../../../events/juce_Timer.h"
+	"../../../application/juce_DeletedAtShutdown.h"
+
+1190878926 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/imaging/juce_ImageConvolutionKernel.h
+	"juce_Image.h"
+
+1190878926 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/imaging/juce_ImageFileFormat.h
+	"juce_Image.h"
+	"../../../../juce_core/io/files/juce_File.h"
+	"../../../../juce_core/io/juce_InputStream.h"
+	"../../../../juce_core/io/juce_OutputStream.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/drawables/juce_Drawable.h
+	"../contexts/juce_Graphics.h"
+	"../../../../juce_core/text/juce_XmlElement.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/drawables/juce_DrawableComposite.h
+	"juce_Drawable.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/drawables/juce_DrawableImage.h
+	"juce_Drawable.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/drawables/juce_DrawablePath.h
+	"juce_Drawable.h"
+	"../colour/juce_ColourGradient.h"
+
+1190878918 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/drawables/juce_DrawableText.h
+	"juce_Drawable.h"
+	"../fonts/juce_GlyphArrangement.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_ArrowButton.h
+	"juce_Button.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/effects/juce_DropShadowEffect.h
+	"juce_ImageEffectFilter.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_DrawableButton.h
+	"juce_Button.h"
+	"../../graphics/drawables/juce_Drawable.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_HyperlinkButton.h
+	"juce_Button.h"
+	"../../../../juce_core/io/network/juce_URL.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_ImageButton.h
+	"juce_Button.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_ShapeButton.h
+	"juce_Button.h"
+	"../../graphics/geometry/juce_Path.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_TextButton.h
+	"juce_Button.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_ToggleButton.h
+	"juce_Button.h"
+
+1190878932 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/buttons/juce_ToolbarButton.h
+	"../controls/juce_ToolbarItemComponent.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_ToolbarItemComponent.h
+	"../buttons/juce_Button.h"
+	"../../graphics/drawables/juce_Drawable.h"
+	"juce_Toolbar.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_Toolbar.h
+	"../mouse/juce_DragAndDropContainer.h"
+	"../layout/juce_ComponentAnimator.h"
+	"../buttons/juce_Button.h"
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_DragAndDropContainer.h
+	"juce_DragAndDropTarget.h"
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_DragAndDropTarget.h
+	"../juce_Component.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_ComponentAnimator.h
+	"../juce_Component.h"
+	"../juce_ComponentDeletionWatcher.h"
+	"../../../events/juce_Timer.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/effects/juce_GlowEffect.h
+	"juce_ImageEffectFilter.h"
+
+1190878917 /home/kororaa/Projects/juce/src/juce_appframework/gui/graphics/effects/juce_ReduceOpacityEffect.h
+	"juce_ImageEffectFilter.h"
+
+1190878933 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/keyboard/juce_KeyMappingEditorComponent.h
+	"../keyboard/juce_KeyPressMappingSet.h"
+	"../controls/juce_TreeView.h"
+	"../buttons/juce_TextButton.h"
+
+1190878933 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/keyboard/juce_KeyPressMappingSet.h
+	"juce_KeyListener.h"
+	"../../../application/juce_ApplicationCommandManager.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+	"../../../../juce_core/text/juce_StringArray.h"
+	"../../../../juce_core/text/juce_XmlElement.h"
+	"../../../../juce_core/containers/juce_OwnedArray.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_TreeView.h
+	"../layout/juce_Viewport.h"
+	"../../../../juce_core/text/juce_XmlElement.h"
+	"../../../events/juce_AsyncUpdater.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/menus/juce_MenuBarComponent.h
+	"juce_MenuBarModel.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/menus/juce_MenuBarModel.h
+	"juce_PopupMenu.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/menus/juce_PopupMenu.h
+	"juce_PopupMenuCustomComponent.h"
+	"../../../application/juce_ApplicationCommandManager.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/menus/juce_PopupMenuCustomComponent.h
+	"../juce_Component.h"
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_ComponentDragger.h
+	"juce_MouseEvent.h"
+	"../layout/juce_ComponentBoundsConstrainer.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_ComponentBoundsConstrainer.h
+	"../juce_Component.h"
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_LassoComponent.h
+	"../juce_Component.h"
+	"../../../documents/juce_SelectedItemSet.h"
+
+1190878915 /home/kororaa/Projects/juce/src/juce_appframework/documents/juce_SelectedItemSet.h
+	"../events/juce_ChangeBroadcaster.h"
+
+1190878930 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_MouseHoverDetector.h
+	"juce_MouseListener.h"
+	"../../../events/juce_Timer.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_ListBox.h
+	"../layout/juce_Viewport.h"
+	"../../../../juce_core/containers/juce_SparseSet.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_ProgressBar.h
+	"../juce_Component.h"
+	"../mouse/juce_TooltipClient.h"
+	"../../../events/juce_Timer.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_Slider.h
+	"juce_SliderListener.h"
+	"juce_Label.h"
+	"../buttons/juce_Button.h"
+	"../../../events/juce_AsyncUpdater.h"
+	"../../../../juce_core/containers/juce_SortedSet.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_SliderListener.h
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_TableHeaderComponent.h
+	"../menus/juce_PopupMenu.h"
+	"../../../events/juce_AsyncUpdater.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_TableListBox.h
+	"juce_TableHeaderComponent.h"
+	"juce_ListBox.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_ToolbarItemFactory.h
+	"juce_ToolbarItemComponent.h"
+
+1190878936 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/controls/juce_ToolbarItemPalette.h
+	"juce_Toolbar.h"
+	"../layout/juce_Viewport.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/properties/juce_BooleanPropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../buttons/juce_ToggleButton.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/properties/juce_PropertyComponent.h
+	"../juce_Component.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/properties/juce_ButtonPropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../buttons/juce_TextButton.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/properties/juce_ChoicePropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../controls/juce_ComboBox.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/properties/juce_PropertyPanel.h
+	"juce_PropertyComponent.h"
+	"../layout/juce_Viewport.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/properties/juce_SliderPropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../controls/juce_Slider.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/properties/juce_TextPropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../controls/juce_Label.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_ComponentMovementWatcher.h
+	"../juce_Component.h"
+	"../juce_ComponentDeletionWatcher.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_GroupComponent.h
+	"../juce_Component.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_MultiDocumentPanel.h
+	"juce_TabbedComponent.h"
+	"../windows/juce_DocumentWindow.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_TabbedComponent.h
+	"juce_TabbedButtonBar.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_TabbedButtonBar.h
+	"../buttons/juce_Button.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_ResizableBorderComponent.h
+	"juce_ComponentBoundsConstrainer.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_ResizableCornerComponent.h
+	"juce_ComponentBoundsConstrainer.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_StretchableLayoutManager.h
+	"../juce_Component.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_StretchableLayoutResizerBar.h
+	"../juce_Component.h"
+	"juce_StretchableLayoutManager.h"
+
+1190878937 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/layout/juce_StretchableObjectResizer.h
+	"../../../../juce_core/containers/juce_OwnedArray.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_DirectoryContentsList.h
+	"juce_FileFilter.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+	"../../../../juce_core/threads/juce_TimeSliceThread.h"
+	"../../graphics/imaging/juce_Image.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FileFilter.h
+	"../../../../juce_core/io/files/juce_File.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FileBrowserComponent.h
+	"juce_DirectoryContentsDisplayComponent.h"
+	"juce_FilePreviewComponent.h"
+	"../../../../juce_core/io/files/juce_File.h"
+	"../../../../juce_core/containers/juce_BitArray.h"
+	"../controls/juce_TextEditor.h"
+	"../controls/juce_ComboBox.h"
+	"../buttons/juce_DrawableButton.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FileListComponent.h
+	"juce_DirectoryContentsDisplayComponent.h"
+	"juce_FileBrowserListener.h"
+	"../controls/juce_ListBox.h"
+	"../controls/juce_TreeView.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FileBrowserListener.h
+	"../mouse/juce_MouseEvent.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FilePreviewComponent.h
+	"../../../../juce_core/io/files/juce_File.h"
+	"../juce_Component.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FileChooser.h
+	"juce_FilePreviewComponent.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FileChooserDialogBox.h
+	"juce_FileBrowserComponent.h"
+	"../windows/juce_ResizableWindow.h"
+	"../buttons/juce_TextButton.h"
+	"../../graphics/fonts/juce_GlyphArrangement.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_ResizableWindow.h
+	"juce_TopLevelWindow.h"
+	"../mouse/juce_ComponentDragger.h"
+	"../layout/juce_ResizableBorderComponent.h"
+	"../layout/juce_ResizableCornerComponent.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_TopLevelWindow.h
+	"../juce_Component.h"
+	"../special/juce_DropShadower.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_DropShadower.h
+	"../juce_Component.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FilenameComponent.h
+	"../controls/juce_ComboBox.h"
+	"../../../events/juce_AsyncUpdater.h"
+	"../buttons/juce_TextButton.h"
+	"../../../../juce_core/io/files/juce_File.h"
+	"../mouse/juce_FileDragAndDropTarget.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_ImagePreviewComponent.h
+	"juce_FilePreviewComponent.h"
+	"../../../events/juce_Timer.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_WildcardFileFilter.h
+	"juce_FileFilter.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_AlertWindow.h
+	"juce_TopLevelWindow.h"
+	"../../graphics/fonts/juce_TextLayout.h"
+	"../controls/juce_ComboBox.h"
+	"../mouse/juce_ComponentDragger.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_DialogWindow.h
+	"juce_DocumentWindow.h"
+	"../buttons/juce_Button.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_DocumentWindow.h
+	"juce_ResizableWindow.h"
+	"../buttons/juce_Button.h"
+	"../menus/juce_MenuBarComponent.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_SplashScreen.h
+	"../juce_Component.h"
+	"../../../events/juce_Timer.h"
+	"../../../application/juce_DeletedAtShutdown.h"
+
+1190878931 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/windows/juce_ThreadWithProgressWindow.h
+	"../windows/juce_AlertWindow.h"
+	"../../../events/juce_Timer.h"
+	"../../../../juce_core/threads/juce_Thread.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_ActiveXControlComponent.h
+	"../juce_Component.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_AudioDeviceSelectorComponent.h
+	"../controls/juce_ComboBox.h"
+	"../controls/juce_ListBox.h"
+	"../../../audio/devices/juce_AudioDeviceManager.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_BubbleComponent.h
+	"../juce_Component.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_BubbleMessageComponent.h
+	"juce_BubbleComponent.h"
+	"../../../events/juce_Timer.h"
+	"../../graphics/fonts/juce_TextLayout.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_ColourSelector.h
+	"../controls/juce_Slider.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_MagnifierComponent.h
+	"../juce_Component.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_MidiKeyboardComponent.h
+	"../buttons/juce_Button.h"
+	"../../../events/juce_AsyncUpdater.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+	"../../../audio/midi/juce_MidiKeyboardState.h"
+	"../../../../juce_core/containers/juce_BitArray.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_OpenGLComponent.h
+	"../juce_Component.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_PreferencesPanel.h
+	"../juce_Component.h"
+	"../buttons/juce_Button.h"
+	"../../graphics/drawables/juce_Drawable.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_QuickTimeMovieComponent.h
+	"../../../../juce_core/io/files/juce_File.h"
+	"juce_ActiveXControlComponent.h"
+	"../juce_Component.h"
+	"../../../events/juce_Timer.h"
+
+1171484190 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_TaskbarIconComponent.h
+	"../juce_Component.h"
+
+1190878928 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/lookandfeel/juce_LookAndFeel.h
+	"../../graphics/contexts/juce_Graphics.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+	"../controls/juce_Slider.h"
+	"../layout/juce_TabbedComponent.h"
+
+1171484188 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/lookandfeel/juce_ShinyLookAndFeel.h
+	"juce_LookAndFeel.h"
+
+1190878915 /home/kororaa/Projects/juce/src/juce_appframework/documents/juce_FileBasedDocument.h
+	"../../juce_core/io/files/juce_File.h"
+	"../events/juce_ChangeBroadcaster.h"
+
+1190878915 /home/kororaa/Projects/juce/src/juce_appframework/documents/juce_RecentlyOpenedFilesList.h
+	"../../juce_core/io/files/juce_File.h"
+	"../gui/components/menus/juce_PopupMenu.h"
+
+1190879957 /home/kororaa/Projects/angeljuice/src/utils/AngelJuice_CommandLineTokenizer.h
+	"juce.h"
+
+1190879957 /home/kororaa/Projects/angeljuice/src/utils/AngelJuice_InternetUpdateChecker.h
+	"juce.h"
+
+1190883713 /home/kororaa/Projects/angeljuice/src/utils/AngelJuice_AngelicLookAndFeel.h
+	"juce.h"
+
+1190879964 /home/kororaa/Projects/angeljuice/src/AngelJuice_command.h
+	"juce.h"
+
+1161898234 /home/kororaa/Projects/angeljuice/src/AngelJuice_window.h
+	"juce.h"
+
+1190879959 /home/kororaa/Projects/angeljuice/src/resources/AngelJuice_Resource.h
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/AngelJuice_ScriptablePlugin.h
+	"../libraries/angelscript/angelscript.h"
+	"../utils/AngelJuice_DynamicLibraryLoader.h"
+	"juce.h"
+
+1190829818 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/angelscript.h
+	<stddef.h>
+
+1190879957 /home/kororaa/Projects/angeljuice/src/utils/AngelJuice_DynamicLibraryLoader.h
+	"juce.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/AngelJuice_ScriptableEngine.h
+	"../libraries/angelscript/angelscript.h"
+	"juce.h"
+	"AngelJuice_ScriptablePlugin.h"
+	"AngelJuice_ScriptableEngineModel.h"
+	"AngelJuice_ScriptablePreprocessor.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/AngelJuice_ScriptableEngineModel.h
+	"../libraries/angelscript/angelscript.h"
+	"juce.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/AngelJuice_ScriptablePreprocessor.h
+	<string>
+	<vector>
+	<list>
+	<map>
+	<iostream>
+	<sstream>
+	<fstream>
+	<iomanip>
+	"juce.h"
+
+1190879964 /home/kororaa/Projects/angeljuice/src/document/AngelJuice_OpenDocument.h
+	"../AngelJuice_config.h"
+	"../editor/AngelJuice_SyntaxTextEditor.h"
+
+1190830647 /home/kororaa/Projects/angeljuice/src/editor/AngelJuice_SyntaxTextEditor.h
+	"AngelJuice_SyntaxLexer.h"
+	"AngelJuice_SyntaxDocument.h"
+
+1162507074 /home/kororaa/Projects/angeljuice/src/editor/AngelJuice_SyntaxLexer.h
+	"../AngelJuice_config.h"
+	<ctype.h>
+
+1183321245 /home/kororaa/Projects/angeljuice/src/editor/AngelJuice_SyntaxDocument.h
+	"../AngelJuice_config.h"
+	"AngelJuice_SyntaxLexer.h"
+
+1165011672 /home/kororaa/Projects/angeljuice/src/editor/AngelJuice_SyntaxLexerCPP.h
+	"../AngelJuice_config.h"
+	"AngelJuice_SyntaxLexer.h"
+
+1190879964 /home/kororaa/Projects/angeljuice/src/document/AngelJuice_TabbedEditor.h
+	"../AngelJuice_config.h"
+	"AngelJuice_OpenDocument.h"
+
+1190879959 /home/kororaa/Projects/angeljuice/src/support/AngelJuice_Toolbar.h
+	"../AngelJuice_config.h"
+
+1190879959 /home/kororaa/Projects/angeljuice/src/support/AngelJuice_TabbedSupport.h
+	"../AngelJuice_config.h"
+	"AngelJuice_DebugOutput.h"
+	"AngelJuice_ErrorOutput.h"
+	"AngelJuice_CallstackOutput.h"
+	"AngelJuice_SearchComponent.h"
+
+1190879959 /home/kororaa/Projects/angeljuice/src/support/AngelJuice_DebugOutput.h
+
+1190879959 /home/kororaa/Projects/angeljuice/src/support/AngelJuice_ErrorOutput.h
+
+1190879959 /home/kororaa/Projects/angeljuice/src/support/AngelJuice_CallstackOutput.h
+	"AngelJuice_DebugOutput.h"
+
+1190879959 /home/kororaa/Projects/angeljuice/src/support/AngelJuice_SearchComponent.h
+	"../AngelJuice_config.h"
+
+1190879959 /home/kororaa/Projects/angeljuice/src/support/AngelJuice_StatusBar.h
+	"../AngelJuice_config.h"
+
+1190879957 /home/kororaa/Projects/angeljuice/src/options/AngelJuice_OptionWindow.h
+	"../AngelJuice_config.h"
+
+1190879964 source:/home/kororaa/Projects/angeljuice/src/AngelJuice_command.cpp
+	"AngelJuice_command.h"
+	"AngelJuice.h"
+
+1183319529 source:/home/kororaa/Projects/angeljuice/src/AngelJuice_config.cpp
+	"AngelJuice_config.h"
+	"AngelJuice_command.h"
+	"resources/AngelJuice_Resource.h"
+
+1171752602 source:/home/kororaa/Projects/angeljuice/src/AngelJuice_main.cpp
+	"AngelJuice.h"
+
+1183319676 source:/home/kororaa/Projects/angeljuice/src/AngelJuice_window.cpp
+	"AngelJuice_config.h"
+	"AngelJuice_window.h"
+	"AngelJuice_command.h"
+	"AngelJuice.h"
+
+1190879964 source:/home/kororaa/Projects/angeljuice/src/document/AngelJuice_OpenDocument.cpp
+	"../AngelJuice_config.h"
+	"../AngelJuice_command.h"
+	"../editor/AngelJuice_SyntaxLexerAS.h"
+	"../scripting/AngelJuice_ScriptableEngine.h"
+	"AngelJuice_OpenDocument.h"
+	"AngelJuice_TabbedEditor.h"
+
+1160509222 /home/kororaa/Projects/angeljuice/src/document/AngelJuice_SyntaxLexerAS.h
+	"../AngelJuice_config.h"
+	"../editor/AngelJuice_SyntaxLexerCPP.h"
+
+1190879964 source:/home/kororaa/Projects/angeljuice/src/document/AngelJuice_TabbedEditor.cpp
+	"AngelJuice_TabbedEditor.h"
+	"AngelJuice_OpenDocument.h"
+
+1183322781 source:/home/kororaa/Projects/angeljuice/src/editor/AngelJuice_SyntaxDocument.cpp
+	"AngelJuice_SyntaxDocument.h"
+
+1160509218 source:/home/kororaa/Projects/angeljuice/src/editor/AngelJuice_SyntaxLexer.cpp
+	"AngelJuice_SyntaxLexer.h"
+	"AngelJuice_SyntaxLexerCPP.h"
+	"AngelJuice_SyntaxDocument.h"
+
+1190830695 source:/home/kororaa/Projects/angeljuice/src/editor/AngelJuice_SyntaxTextEditor.cpp
+	"AngelJuice_SyntaxTextEditor.h"
+
+1168898532 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_anyobject.cpp
+	<assert.h>
+	<new>
+	"as_config.h"
+	"as_anyobject.h"
+	"as_scriptengine.h"
+
+1157669048 /usr/include/assert.h
+	<features.h>
+
+1190829842 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_config.h
+	"angelscript.h"
+	"as_memory.h"
+
+1168472898 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_anyobject.h
+	"as_config.h"
+	"as_gcobject.h"
+
+1168472898 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_gcobject.h
+	"as_config.h"
+	"as_array.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_array.h
+	<memory.h>
+	<string.h>
+	<assert.h>
+
+1157669048 /usr/include/memory.h
+	<features.h>
+	<string.h>
+
+1157669048 /usr/include/string.h
+	<features.h>
+	<stddef.h>
+	<xlocale.h>
+	<bits/string.h>
+	<bits/string2.h>
+	<bits/string3.h>
+
+1157669048 /usr/include/bits/string.h
+
+1157669048 /usr/include/bits/string2.h
+	<endian.h>
+	<bits/types.h>
+	<stdlib.h>
+
+1157669048 /usr/include/endian.h
+	<features.h>
+	<bits/endian.h>
+
+1157669048 /usr/include/bits/endian.h
+
+1157669048 /usr/include/stdlib.h
+	<features.h>
+	<stddef.h>
+	<bits/waitflags.h>
+	<bits/waitstatus.h>
+	<xlocale.h>
+	<sys/types.h>
+	<alloca.h>
+	<bits/stdlib.h>
+	<bits/stdlib-ldbl.h>
+
+1157669048 /usr/include/bits/waitflags.h
+
+1157669048 /usr/include/bits/waitstatus.h
+	<endian.h>
+
+1157669048 /usr/include/sys/types.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<stddef.h>
+	<endian.h>
+	<sys/select.h>
+	<sys/sysmacros.h>
+	<bits/pthreadtypes.h>
+
+1157669048 /usr/include/sys/select.h
+	<features.h>
+	<bits/types.h>
+	<bits/select.h>
+	<bits/sigset.h>
+	<time.h>
+	<bits/time.h>
+
+1157669048 /usr/include/bits/select.h
+
+1157669048 /usr/include/sys/sysmacros.h
+	<features.h>
+
+1157669048 /usr/include/alloca.h
+	<features.h>
+	<stddef.h>
+
+1157669048 /usr/include/bits/stdlib.h
+
+1157669048 /usr/include/bits/stdlib-ldbl.h
+
+1157669048 /usr/include/bits/string3.h
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptengine.h
+	"as_config.h"
+	"as_thread.h"
+	"as_scriptfunction.h"
+	"as_array.h"
+	"as_datatype.h"
+	"as_objecttype.h"
+	"as_module.h"
+	"as_restore.h"
+	"as_callfunc.h"
+	"as_configgroup.h"
+	"as_memory.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_thread.h
+	"as_config.h"
+	"as_string.h"
+	"as_array.h"
+	"as_map.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_string.h
+	<stdio.h>
+	<string.h>
+
+1157669048 /usr/include/stdio.h
+	<features.h>
+	<stddef.h>
+	<bits/types.h>
+	<libio.h>
+	<stdarg.h>
+	<bits/stdio_lim.h>
+	<bits/sys_errlist.h>
+	<getopt.h>
+	<bits/stdio.h>
+	<bits/stdio2.h>
+	<bits/stdio-ldbl.h>
+
+1157669048 /usr/include/libio.h
+	<_G_config.h>
+	<stdarg.h>
+	<sys/cdefs.h>
+	<bits/stdio-lock.h>
+	<shlib-compat.h>
+	<bits/libio-ldbl.h>
+
+1157669048 /usr/include/_G_config.h
+	<bits/types.h>
+	<stddef.h>
+	<wchar.h>
+	<gconv.h>
+
+1157669048 /usr/include/wchar.h
+	<features.h>
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<bits/wchar.h>
+	<wctype.h>
+	<xlocale.h>
+	<xlocale.h>
+	<xlocale.h>
+	<wctype.h>
+	<bits/wchar2.h>
+	<bits/wchar-ldbl.h>
+
+1157669048 /usr/include/bits/wchar.h
+
+1157669048 /usr/include/wctype.h
+	<features.h>
+	<bits/types.h>
+	<stddef.h>
+	<endian.h>
+	<xlocale.h>
+
+1157669048 /usr/include/bits/wchar2.h
+
+1157669048 /usr/include/bits/wchar-ldbl.h
+
+1157669048 /usr/include/gconv.h
+	<features.h>
+	<wchar.h>
+	<stddef.h>
+
+1157669048 /usr/include/bits/stdio-lock.h
+	<bits/libc-lock.h>
+	<lowlevellock.h>
+
+1157669048 /usr/include/bits/libc-lock.h
+	<pthread.h>
+	<stddef.h>
+	<lowlevellock.h>
+	<tls.h>
+	<pthread-functions.h>
+	<bp-sym.h>
+
+1157669048 /usr/include/bits/libio-ldbl.h
+
+1157669048 /usr/include/bits/stdio_lim.h
+
+1157669048 /usr/include/bits/sys_errlist.h
+
+1157669048 /usr/include/getopt.h
+	<ctype.h>
+
+1157669048 /usr/include/ctype.h
+	<features.h>
+	<bits/types.h>
+	<endian.h>
+	<xlocale.h>
+
+1157669048 /usr/include/bits/stdio.h
+
+1157669048 /usr/include/bits/stdio2.h
+
+1157669048 /usr/include/bits/stdio-ldbl.h
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_map.h
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptfunction.h
+	"as_config.h"
+	"as_string.h"
+	"as_array.h"
+	"as_datatype.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_datatype.h
+	"as_tokendef.h"
+	"as_string.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_tokendef.h
+	"as_config.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_objecttype.h
+	"as_string.h"
+	"as_property.h"
+	"as_array.h"
+	"as_scriptfunction.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_property.h
+	"as_string.h"
+	"as_datatype.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_module.h
+	"as_config.h"
+	"as_thread.h"
+	"as_string.h"
+	"as_array.h"
+	"as_datatype.h"
+	"as_scriptfunction.h"
+	"as_property.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_restore.h
+	"as_scriptengine.h"
+	"as_context.h"
+	"as_map.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_context.h
+	"as_config.h"
+	"as_thread.h"
+	"as_array.h"
+	"as_string.h"
+	"as_objecttype.h"
+	"as_callfunc.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_callfunc.h
+	"as_array.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_configgroup.h
+	"as_config.h"
+	"as_string.h"
+	"as_array.h"
+	"as_objecttype.h"
+	"as_map.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_arrayobject.cpp
+	<assert.h>
+	<new>
+	<stdlib.h>
+	"as_config.h"
+	"as_arrayobject.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_scriptstruct.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_arrayobject.h
+	"as_config.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_texts.h
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptstruct.h
+	"as_config.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_builder.cpp
+	"as_config.h"
+	"as_builder.h"
+	"as_parser.h"
+	"as_compiler.h"
+	"as_tokendef.h"
+	"as_string_util.h"
+	"as_outputbuffer.h"
+	"as_texts.h"
+	"as_scriptstruct.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_builder.h
+	"as_config.h"
+	"as_scriptengine.h"
+	"as_module.h"
+	"as_array.h"
+	"as_scriptcode.h"
+	"as_scriptnode.h"
+	"as_datatype.h"
+	"as_property.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptcode.h
+	"as_array.h"
+	"as_string.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptnode.h
+	"as_tokendef.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_parser.h
+	"as_scriptnode.h"
+	"as_scriptcode.h"
+	"as_builder.h"
+	"as_tokenizer.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_tokenizer.h
+	"as_tokendef.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_compiler.h
+	"as_config.h"
+	"as_builder.h"
+	"as_scriptfunction.h"
+	"as_variablescope.h"
+	"as_bytecode.h"
+	"as_array.h"
+	"as_datatype.h"
+	"as_typeinfo.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_variablescope.h
+	"as_array.h"
+	"as_string.h"
+	"as_datatype.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_bytecode.h
+	"as_config.h"
+	"as_bytecodedef.h"
+	"as_array.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_bytecodedef.h
+	"as_config.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_typeinfo.h
+	"as_config.h"
+	"as_datatype.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_string_util.h
+	"as_config.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_outputbuffer.h
+	"as_config.h"
+	"as_string.h"
+	"as_array.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_bytecode.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_bytecode.h"
+	"as_debug.h"
+	"as_array.h"
+	"as_string.h"
+	"as_module.h"
+	"as_scriptengine.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_debug.h
+	<sys/stat.h>
+	<sys/types.h>
+	<direct.h>
+
+1157669048 /usr/include/sys/stat.h
+	<features.h>
+	<bits/types.h>
+	<time.h>
+	<bits/stat.h>
+
+1157669048 /usr/include/bits/stat.h
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_c.cpp
+	"as_config.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_callfunc.cpp
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_callfunc_mips.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	<stdlib.h>
+	<regdef.h>
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_callfunc_ppc.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	<stdlib.h>
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_callfunc_sh4.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	<stdlib.h>
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_callfunc_x86.cpp
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_compiler.cpp
+	<math.h>
+	"as_config.h"
+	"as_compiler.h"
+	"as_tokendef.h"
+	"as_tokenizer.h"
+	"as_string_util.h"
+	"as_texts.h"
+	"as_parser.h"
+
+1157669048 /usr/include/math.h
+	<features.h>
+	<bits/huge_val.h>
+	<bits/huge_valf.h>
+	<bits/huge_vall.h>
+	<bits/inf.h>
+	<bits/nan.h>
+	<bits/mathdef.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls.h>
+	<bits/mathcalls.h>
+	<bits/mathinline.h>
+
+1157669048 /usr/include/bits/huge_val.h
+	<endian.h>
+
+1157669048 /usr/include/bits/huge_valf.h
+
+1157669048 /usr/include/bits/huge_vall.h
+
+1157669048 /usr/include/bits/inf.h
+
+1157669048 /usr/include/bits/nan.h
+	<endian.h>
+
+1157669048 /usr/include/bits/mathdef.h
+
+1157669048 /usr/include/bits/mathcalls.h
+
+1157669048 /usr/include/bits/mathinline.h
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_configgroup.cpp
+	"as_config.h"
+	"as_configgroup.h"
+	"as_scriptengine.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_context.cpp
+	<math.h>
+	"as_config.h"
+	"as_context.h"
+	"as_scriptengine.h"
+	"as_tokendef.h"
+	"as_bytecodedef.h"
+	"as_texts.h"
+	"as_callfunc.h"
+	"as_module.h"
+	"as_generic.h"
+	"as_debug.h"
+	"as_bytecode.h"
+	"as_scriptstruct.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_generic.h
+	"as_config.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_datatype.cpp
+	"as_config.h"
+	"as_datatype.h"
+	"as_tokendef.h"
+	"as_objecttype.h"
+	"as_scriptengine.h"
+	"as_arrayobject.h"
+	"as_tokenizer.h"
+
+1168472898 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_gcobject.cpp
+	<assert.h>
+	<new>
+	<stdlib.h>
+	"as_config.h"
+	"as_scriptengine.h"
+	"as_gcobject.h"
+	"as_anyobject.h"
+	"as_arrayobject.h"
+	"as_scriptstruct.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_generic.cpp
+	"as_generic.h"
+	"as_scriptfunction.h"
+	"as_objecttype.h"
+	"as_scriptengine.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_module.cpp
+	"as_config.h"
+	"as_module.h"
+	"as_builder.h"
+	"as_context.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_objecttype.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_objecttype.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_outputbuffer.cpp
+	"as_config.h"
+	"as_outputbuffer.h"
+	"as_scriptengine.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_parser.cpp
+	"as_config.h"
+	"as_parser.h"
+	"as_tokendef.h"
+	"as_texts.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_restore.cpp
+	"as_config.h"
+	"as_restore.h"
+	"as_bytecodedef.h"
+	"as_bytecode.h"
+	"as_arrayobject.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptcode.cpp
+	"as_config.h"
+	"as_scriptcode.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptengine.cpp
+	<stdlib.h>
+	"as_config.h"
+	"as_scriptengine.h"
+	"as_builder.h"
+	"as_context.h"
+	"as_string_util.h"
+	"as_tokenizer.h"
+	"as_texts.h"
+	"as_module.h"
+	"as_callfunc.h"
+	"as_arrayobject.h"
+	"as_generic.h"
+	"as_scriptstruct.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptfunction.cpp
+	"as_config.h"
+	"as_scriptfunction.h"
+	"as_tokendef.h"
+	"as_scriptengine.h"
+	"as_callfunc.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptnode.cpp
+	"as_config.h"
+	"as_scriptnode.h"
+	"as_scriptengine.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_scriptstruct.cpp
+	<assert.h>
+	<new>
+	"as_config.h"
+	"as_scriptengine.h"
+	"as_scriptstruct.h"
+	"as_arrayobject.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_string.cpp
+	<stdarg.h>
+	<stdlib.h>
+	<assert.h>
+	<string.h>
+	"as_config.h"
+	<memory.h>
+	"as_string.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_string_util.cpp
+	<stdarg.h>
+	<stdlib.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	"as_config.h"
+	<memory.h>
+	"as_string_util.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_thread.cpp
+	<assert.h>
+	"as_config.h"
+	"as_thread.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_tokenizer.cpp
+	"as_config.h"
+	"as_tokenizer.h"
+	"as_tokendef.h"
+	<memory.h>
+	<assert.h>
+	<string.h>
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_typeinfo.cpp
+	"as_config.h"
+	"as_typeinfo.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_variablescope.cpp
+	"as_config.h"
+	"as_variablescope.h"
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/options/AngelJuice_AboutPage.cpp
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"../AngelJuice_command.h"
+	"../resources/AngelJuice_Resource.h"
+	"AngelJuice_AboutPage.h"
+
+1190879957 /home/kororaa/Projects/angeljuice/src/options/AngelJuice_AboutPage.h
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/options/AngelJuice_CompilerPage.cpp
+	"AngelJuice_CompilerPage.h"
+
+1190879957 /home/kororaa/Projects/angeljuice/src/options/AngelJuice_CompilerPage.h
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/options/AngelJuice_FontsPage.cpp
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"../AngelJuice_command.h"
+	"../resources/AngelJuice_Resource.h"
+	"AngelJuice_FontsPage.h"
+
+1190879957 /home/kororaa/Projects/angeljuice/src/options/AngelJuice_FontsPage.h
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"AngelJuice_ColourEditor.h"
+
+1190879957 /home/kororaa/Projects/angeljuice/src/options/AngelJuice_ColourEditor.h
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"../editor/AngelJuice_SyntaxLexerAS.h"
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/options/AngelJuice_OptionWindow.cpp
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"../AngelJuice_command.h"
+	"../resources/AngelJuice_Resource.h"
+	"AngelJuice_OptionWindow.h"
+	"AngelJuice_CompilerPage.h"
+	"AngelJuice_FontsPage.h"
+	"AngelJuice_AboutPage.h"
+
+1190879959 source:/home/kororaa/Projects/angeljuice/src/resources/AngelJuice_Resource.cpp
+	"AngelJuice_Resource.h"
+
+1190882809 source:/home/kororaa/Projects/angeljuice/src/scripting/AngelJuice_ScriptableEngine.cpp
+	"../libraries/angelscript/angelscript.h"
+	"bindings/AngelJuice_AngelScriptCore.h"
+	"bindings/AngelJuice_AngelScriptString.h"
+	"bindings/AngelJuice_AngelScriptFile.h"
+	"bindings/AngelJuice_AngelScriptOpenGL.h"
+	"bindings/AngelJuice_AngelScriptImaging.h"
+	"bindings/AngelJuice_AngelScriptComponent.h"
+	"AngelJuice_ScriptableEngine.h"
+	"AngelJuice_ScriptablePlugin.h"
+	"AngelJuice_ScriptablePreprocessor.h"
+
+1190882893 /home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptCore.h
+	"juce.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptString.h
+	"juce.h"
+	"../../utils/AngelJuice_RegularExpression.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptFile.h
+	"juce.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptOpenGL.h
+	"juce.h"
+	"../../libraries/angelscript/angelscript.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptImaging.h
+	"juce.h"
+
+1190882641 /home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptComponent.h
+	"juce.h"
+
+1190879958 source:/home/kororaa/Projects/angeljuice/src/scripting/AngelJuice_ScriptablePlugin.cpp
+	"../libraries/angelscript/angelscript.h"
+	"bindings/AngelJuice_AngelScriptCore.h"
+	"bindings/AngelJuice_AngelScriptString.h"
+	"bindings/AngelJuice_AngelScriptFile.h"
+	"bindings/AngelJuice_AngelScriptSocket.h"
+	"bindings/AngelJuice_AngelScriptOpenGL.h"
+	"bindings/AngelJuice_AngelScriptImaging.h"
+	"bindings/AngelJuice_AngelScriptComponent.h"
+	"AngelJuice_ScriptableEngine.h"
+	"AngelJuice_ScriptablePlugin.h"
+	"AngelJuice_ScriptablePreprocessor.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptSocket.h
+	"juce.h"
+
+1190879958 source:/home/kororaa/Projects/angeljuice/src/scripting/AngelJuice_ScriptablePreprocessor.cpp
+	"AngelJuice_ScriptablePreprocessor.h"
+
+1190882738 source:/home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptComponent.cpp
+	"../../libraries/angelscript/angelscript.h"
+	"AngelJuice_AngelScriptCommon.h"
+	"AngelJuice_AngelScriptCore.h"
+	"AngelJuice_AngelScriptString.h"
+	"AngelJuice_AngelScriptImaging.h"
+	"AngelJuice_AngelScriptComponent.h"
+	"../AngelJuice_ScriptableEngine.h"
+
+1190882873 source:/home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptCore.cpp
+	"../../libraries/angelscript/angelscript.h"
+	"AngelJuice_AngelScriptCommon.h"
+	"AngelJuice_AngelScriptCore.h"
+	"AngelJuice_AngelScriptString.h"
+	"../AngelJuice_ScriptableEngine.h"
+
+1190879958 source:/home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptFile.cpp
+	"../../libraries/angelscript/angelscript.h"
+	"AngelJuice_AngelScriptString.h"
+	"AngelJuice_AngelScriptFile.h"
+
+1190883299 source:/home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptImaging.cpp
+	"../../libraries/angelscript/angelscript.h"
+	"AngelJuice_AngelScriptCommon.h"
+	"AngelJuice_AngelScriptString.h"
+	"AngelJuice_AngelScriptImaging.h"
+	"../AngelJuice_ScriptableEngine.h"
+
+1190879958 source:/home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptOpenGL.cpp
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<GL/gl.h>
+	<GL/glut.h>
+	<agl/agl.h>
+	<glut/glut.h>
+	"AngelJuice_AngelScriptOpenGL.h"
+
+1157317457 /usr/include/GL/gl.h
+	"gl_mangle.h"
+	<stdlib.h>
+	<windows.h>
+	<GL/mesa_wgl.h>
+	<GL/glext.h>
+
+1157317457 /usr/include/GL/gl_mangle.h
+
+1157317457 /usr/include/GL/mesa_wgl.h
+	<GL/gl.h>
+
+1143295896 /usr/include/GL/glext.h
+	<windows.h>
+	<stddef.h>
+
+1143307432 /usr/include/GL/glut.h
+	<GL/gl.h>
+	<GL/glu.h>
+
+1157317457 /usr/include/GL/glu.h
+	"glu_mangle.h"
+	<GL/gl.h>
+
+1157317457 /usr/include/GL/glu_mangle.h
+
+1190879958 source:/home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptSocket.cpp
+	"../../libraries/angelscript/angelscript.h"
+	"../AngelJuice_ScriptableEngine.h"
+	"AngelJuice_AngelScriptCore.h"
+	"AngelJuice_AngelScriptString.h"
+	"AngelJuice_AngelScriptSocket.h"
+
+1190879958 source:/home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptString.cpp
+	"../../libraries/angelscript/angelscript.h"
+	"AngelJuice_AngelScriptString.h"
+	"AngelJuice_AngelScriptFile.h"
+
+1190879959 source:/home/kororaa/Projects/angeljuice/src/support/AngelJuice_CallstackOutput.cpp
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"AngelJuice_CallstackOutput.h"
+
+1190879959 source:/home/kororaa/Projects/angeljuice/src/support/AngelJuice_DebugOutput.cpp
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"AngelJuice_DebugOutput.h"
+
+1190879959 source:/home/kororaa/Projects/angeljuice/src/support/AngelJuice_ErrorOutput.cpp
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"AngelJuice_ErrorOutput.h"
+
+1190879959 source:/home/kororaa/Projects/angeljuice/src/support/AngelJuice_SearchComponent.cpp
+	"AngelJuice_SearchComponent.h"
+
+1190879959 source:/home/kororaa/Projects/angeljuice/src/support/AngelJuice_StatusBar.cpp
+	"../AngelJuice.h"
+	"AngelJuice_StatusBar.h"
+
+1190879959 source:/home/kororaa/Projects/angeljuice/src/support/AngelJuice_TabbedSupport.cpp
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"AngelJuice_TabbedSupport.h"
+
+1190879959 source:/home/kororaa/Projects/angeljuice/src/support/AngelJuice_Toolbar.cpp
+	"../AngelJuice.h"
+	"../AngelJuice_config.h"
+	"../resources/AngelJuice_Resource.h"
+	"AngelJuice_Toolbar.h"
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/utils/AngelJuice_AngelicLookAndFeel.cpp
+	"AngelJuice_AngelicLookAndFeel.h"
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/utils/AngelJuice_CommandLineTokenizer.cpp
+	"AngelJuice_CommandLineTokenizer.h"
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/utils/AngelJuice_DynamicLibraryLoader.cpp
+	<windows.h>
+	<dlfcn.h>
+	"AngelJuice_DynamicLibraryLoader.h"
+
+1157669048 /usr/include/dlfcn.h
+	<features.h>
+	<stddef.h>
+	<bits/dlfcn.h>
+
+1157669048 /usr/include/bits/dlfcn.h
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/utils/AngelJuice_InternetUpdateChecker.cpp
+	"AngelJuice_InternetUpdateChecker.h"
+
+1162504057 /home/kororaa/Projects/angeljuice/src/editor/AngelJuice_SyntaxLexerAS.h
+	"../AngelJuice_config.h"
+	"AngelJuice_SyntaxLexerCPP.h"
+
+1190879958 /home/kororaa/Projects/angeljuice/src/scripting/bindings/AngelJuice_AngelScriptCommon.h
+	"juce.h"
+
+1190879964 /home/kororaa/Projects/angeljuice/src/document/AngelJuice_ProjectTree.h
+	"../AngelJuice_config.h"
+
+1190879964 source:/home/kororaa/Projects/angeljuice/src/document/AngelJuice_ProjectTree.cpp
+	"AngelJuice_ProjectTree.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_chartables.c
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_compile.c
+	"pcre_internal.h"
+
+1190879961 /home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_internal.h
+	"config.h"
+	<ctype.h>
+	<limits.h>
+	<setjmp.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pcre.h"
+	"ucp.h"
+	"ucpinternal.h"
+
+1190879961 /home/kororaa/Projects/angeljuice/src/libraries/pcre/config.h
+
+1190879961 /home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre.h
+	<stdlib.h>
+
+1190879961 /home/kororaa/Projects/angeljuice/src/libraries/pcre/ucp.h
+
+1190879961 /home/kororaa/Projects/angeljuice/src/libraries/pcre/ucpinternal.h
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_config.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_dfa_exec.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_exec.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_fullinfo.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_get.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_globals.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_info.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_maketables.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_ord2utf8.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_refcount.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_study.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_tables.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_try_flipped.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_ucp_findchar.c
+	"pcre_internal.h"
+	"ucp.h"
+	"ucpinternal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_valid_utf8.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_version.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcre_xclass.c
+	"pcre_internal.h"
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/pcreposix.c
+	"pcre_internal.h"
+	"pcreposix.h"
+	"stdlib.h"
+
+1190879961 /home/kororaa/Projects/angeljuice/src/libraries/pcre/pcreposix.h
+	<stdlib.h>
+
+1190879961 source:/home/kororaa/Projects/angeljuice/src/libraries/pcre/ucptable.c
+
+1190879957 /home/kororaa/Projects/angeljuice/src/utils/AngelJuice_RegularExpression.h
+	"juce.h"
+
+1190879957 source:/home/kororaa/Projects/angeljuice/src/utils/AngelJuice_RegularExpression.cpp
+	"../libraries/pcre/pcre.h"
+	"AngelJuice_RegularExpression.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/dsp/juce_AudioSampleBuffer.h
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_IIRFilterAudioSource.h
+	"juce_AudioSource.h"
+	"../dsp/juce_IIRFilter.h"
+	"../../../juce_core/containers/juce_OwnedArray.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/dsp/juce_IIRFilter.h
+	"../../../juce_core/threads/juce_CriticalSection.h"
+
+1190878916 /home/kororaa/Projects/juce/src/juce_appframework/application/juce_ApplicationProperties.h
+	"juce_PropertiesFile.h"
+	"juce_DeletedAtShutdown.h"
+	"../../juce_core/basics/juce_Singleton.h"
+
+1190828520 /home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_memory.h
+	<new>
+	"as_config.h"
+	"as_array.h"
+
+1190828520 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_memory.cpp
+	<stdlib.h>
+	"as_config.h"
+	"as_memory.h"
+	"as_scriptnode.h"
+	"as_bytecode.h"
+
+1184273844 /home/kororaa/Projects/juce/trunk/juce.h
+	"src/juce_core/basics/juce_StandardHeader.h"
+	"src/juce_core_includes.h"
+	"src/juce_app_includes.h"
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_StandardHeader.h
+	"../../../juce_Config.h"
+	"juce_PlatformDefs.h"
+	<cstdlib>
+	<cstdarg>
+	<climits>
+	<cmath>
+	<cwchar>
+	<stdexcept>
+	<typeinfo>
+	<pthread.h>
+	<intrin.h>
+	<libkern/OSAtomic.h>
+	<crtdbg.h>
+	"juce_Memory.h"
+	"juce_MathsFunctions.h"
+	"juce_DataConversions.h"
+	"juce_Logger.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/juce_Config.h
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_PlatformDefs.h
+	<CoreServices/CoreServices.h>
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_Memory.h
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_MathsFunctions.h
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_DataConversions.h
+	"juce_PlatformDefs.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_Logger.h
+	"../text/juce_String.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/text/juce_String.h
+	"juce_CharacterFunctions.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/text/juce_CharacterFunctions.h
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core_includes.h
+	"juce_core/basics/juce_Atomic.h"
+	"juce_core/basics/juce_DataConversions.h"
+	"juce_core/basics/juce_FileLogger.h"
+	"juce_core/basics/juce_Initialisation.h"
+	"juce_core/basics/juce_Logger.h"
+	"juce_core/basics/juce_MathsFunctions.h"
+	"juce_core/basics/juce_Memory.h"
+	"juce_core/basics/juce_PlatformDefs.h"
+	"juce_core/basics/juce_Random.h"
+	"juce_core/basics/juce_RelativeTime.h"
+	"juce_core/basics/juce_Singleton.h"
+	"juce_core/basics/juce_StandardHeader.h"
+	"juce_core/basics/juce_SystemStats.h"
+	"juce_core/basics/juce_Time.h"
+	"juce_core/containers/juce_Array.h"
+	"juce_core/containers/juce_ArrayAllocationBase.h"
+	"juce_core/containers/juce_BitArray.h"
+	"juce_core/containers/juce_ElementComparator.h"
+	"juce_core/containers/juce_MemoryBlock.h"
+	"juce_core/containers/juce_OwnedArray.h"
+	"juce_core/containers/juce_PropertySet.h"
+	"juce_core/containers/juce_ReferenceCountedArray.h"
+	"juce_core/containers/juce_ReferenceCountedObject.h"
+	"juce_core/containers/juce_SortedSet.h"
+	"juce_core/containers/juce_SparseSet.h"
+	"juce_core/containers/juce_VoidArray.h"
+	"juce_core/io/juce_InputStream.h"
+	"juce_core/io/juce_OutputStream.h"
+	"juce_core/io/files/juce_DirectoryIterator.h"
+	"juce_core/io/files/juce_File.h"
+	"juce_core/io/files/juce_FileInputStream.h"
+	"juce_core/io/files/juce_FileOutputStream.h"
+	"juce_core/io/files/juce_FileSearchPath.h"
+	"juce_core/io/files/juce_NamedPipe.h"
+	"juce_core/cryptography/juce_BlowFish.h"
+	"juce_core/cryptography/juce_MD5.h"
+	"juce_core/cryptography/juce_Primes.h"
+	"juce_core/cryptography/juce_RSAKey.h"
+	"juce_core/io/network/juce_Socket.h"
+	"juce_core/io/network/juce_URL.h"
+	"juce_core/io/streams/juce_BufferedInputStream.h"
+	"juce_core/io/streams/juce_GZIPCompressorOutputStream.h"
+	"juce_core/io/streams/juce_GZIPDecompressorInputStream.h"
+	"juce_core/io/streams/juce_MemoryInputStream.h"
+	"juce_core/io/streams/juce_MemoryOutputStream.h"
+	"juce_core/io/streams/juce_SubregionStream.h"
+	"juce_core/misc/juce_PerformanceCounter.h"
+	"juce_core/misc/juce_PlatformUtilities.h"
+	"juce_core/misc/juce_Uuid.h"
+	"juce_core/misc/juce_ZipFile.h"
+	"juce_core/text/juce_CharacterFunctions.h"
+	"juce_core/text/juce_LocalisedStrings.h"
+	"juce_core/text/juce_String.h"
+	"juce_core/text/juce_StringArray.h"
+	"juce_core/text/juce_StringPairArray.h"
+	"juce_core/text/juce_XmlDocument.h"
+	"juce_core/text/juce_XmlElement.h"
+	"juce_core/threads/juce_CriticalSection.h"
+	"juce_core/threads/juce_InterProcessLock.h"
+	"juce_core/threads/juce_Process.h"
+	"juce_core/threads/juce_ReadWriteLock.h"
+	"juce_core/threads/juce_ScopedLock.h"
+	"juce_core/threads/juce_ScopedReadLock.h"
+	"juce_core/threads/juce_ScopedWriteLock.h"
+	"juce_core/threads/juce_Thread.h"
+	"juce_core/threads/juce_ThreadPool.h"
+	"juce_core/threads/juce_TimeSliceThread.h"
+	"juce_core/threads/juce_WaitableEvent.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_Atomic.h
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_FileLogger.h
+	"juce_Logger.h"
+	"../io/files/juce_File.h"
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_core/io/files/juce_File.h
+	"../../containers/juce_OwnedArray.h"
+	"../../basics/juce_Time.h"
+	"../../text/juce_StringArray.h"
+	"../../containers/juce_MemoryBlock.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_OwnedArray.h
+	"juce_ArrayAllocationBase.h"
+	"juce_ElementComparator.h"
+	"../threads/juce_CriticalSection.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_ArrayAllocationBase.h
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_ElementComparator.h
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_CriticalSection.h
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_Time.h
+	"juce_RelativeTime.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_RelativeTime.h
+	"../text/juce_String.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/text/juce_StringArray.h
+	"juce_String.h"
+	"../containers/juce_VoidArray.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_VoidArray.h
+	"juce_Array.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_Array.h
+	"juce_ArrayAllocationBase.h"
+	"juce_ElementComparator.h"
+	"../threads/juce_CriticalSection.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_MemoryBlock.h
+	"../text/juce_String.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_Initialisation.h
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_Random.h
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_Singleton.h
+	"../threads/juce_ScopedLock.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_ScopedLock.h
+	"juce_CriticalSection.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_core/basics/juce_SystemStats.h
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_BitArray.h
+	"../text/juce_String.h"
+	"juce_Array.h"
+
+1189549646 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_PropertySet.h
+	"../text/juce_StringPairArray.h"
+	"../text/juce_XmlElement.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/text/juce_StringPairArray.h
+	"juce_StringArray.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/text/juce_XmlElement.h
+	"juce_String.h"
+	"../io/juce_OutputStream.h"
+	"../io/files/juce_File.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/juce_OutputStream.h
+	"../text/juce_String.h"
+	"juce_InputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/juce_InputStream.h
+	"../text/juce_String.h"
+	"../containers/juce_MemoryBlock.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_ReferenceCountedArray.h
+	"juce_ReferenceCountedObject.h"
+	"juce_ArrayAllocationBase.h"
+	"juce_ElementComparator.h"
+	"../threads/juce_CriticalSection.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_ReferenceCountedObject.h
+	"../basics/juce_Atomic.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_SortedSet.h
+	"juce_ArrayAllocationBase.h"
+	"../threads/juce_CriticalSection.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/containers/juce_SparseSet.h
+	"juce_ArrayAllocationBase.h"
+	"../threads/juce_CriticalSection.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/files/juce_DirectoryIterator.h
+	"juce_File.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/files/juce_FileInputStream.h
+	"juce_File.h"
+	"../juce_InputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/files/juce_FileOutputStream.h
+	"juce_File.h"
+	"../juce_OutputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/files/juce_FileSearchPath.h
+	"juce_File.h"
+	"../../text/juce_StringArray.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/files/juce_NamedPipe.h
+	"../juce_OutputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/cryptography/juce_BlowFish.h
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/cryptography/juce_MD5.h
+	"../containers/juce_MemoryBlock.h"
+	"../io/juce_InputStream.h"
+	"../io/files/juce_File.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/cryptography/juce_Primes.h
+	"../containers/juce_BitArray.h"
+
+1189549646 /home/kororaa/Projects/juce/trunk/src/juce_core/cryptography/juce_RSAKey.h
+	"../containers/juce_BitArray.h"
+
+1189549646 /home/kororaa/Projects/juce/trunk/src/juce_core/io/network/juce_Socket.h
+	"../../text/juce_String.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/network/juce_URL.h
+	"../../text/juce_StringPairArray.h"
+	"../../text/juce_XmlElement.h"
+	"../juce_InputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/streams/juce_BufferedInputStream.h
+	"../juce_InputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/streams/juce_GZIPCompressorOutputStream.h
+	"../juce_OutputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/streams/juce_GZIPDecompressorInputStream.h
+	"../juce_InputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/streams/juce_MemoryInputStream.h
+	"../juce_InputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/streams/juce_MemoryOutputStream.h
+	"../juce_OutputStream.h"
+	"../../containers/juce_MemoryBlock.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/io/streams/juce_SubregionStream.h
+	"../juce_InputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/misc/juce_PerformanceCounter.h
+	"../io/files/juce_File.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/misc/juce_PlatformUtilities.h
+	"../text/juce_StringArray.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/misc/juce_Uuid.h
+	"../text/juce_String.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/misc/juce_ZipFile.h
+	"../io/files/juce_File.h"
+	"../io/juce_InputStream.h"
+	"../threads/juce_CriticalSection.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/text/juce_LocalisedStrings.h
+	"juce_StringPairArray.h"
+	"../basics/juce_Singleton.h"
+	"../io/files/juce_File.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/text/juce_XmlDocument.h
+	"juce_XmlElement.h"
+	"juce_StringArray.h"
+	"../io/files/juce_File.h"
+	"../io/juce_InputStream.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_InterProcessLock.h
+	"../text/juce_String.h"
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_Process.h
+	"../text/juce_String.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_ReadWriteLock.h
+	"juce_CriticalSection.h"
+	"juce_WaitableEvent.h"
+	"../containers/juce_Array.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_WaitableEvent.h
+	"../text/juce_String.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_ScopedReadLock.h
+	"juce_ReadWriteLock.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_ScopedWriteLock.h
+	"juce_ReadWriteLock.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_Thread.h
+	"juce_WaitableEvent.h"
+	"juce_CriticalSection.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_ThreadPool.h
+	"juce_Thread.h"
+	"juce_ScopedLock.h"
+	"../text/juce_StringArray.h"
+	"../containers/juce_VoidArray.h"
+
+1188816643 /home/kororaa/Projects/juce/trunk/src/juce_core/threads/juce_TimeSliceThread.h
+	"juce_Thread.h"
+	"../containers/juce_Array.h"
+
+1190830184 /home/kororaa/Projects/juce/trunk/src/juce_app_includes.h
+	"juce_appframework/application/juce_Application.h"
+	"juce_appframework/application/juce_ApplicationCommandID.h"
+	"juce_appframework/application/juce_ApplicationCommandInfo.h"
+	"juce_appframework/application/juce_ApplicationCommandManager.h"
+	"juce_appframework/application/juce_ApplicationCommandTarget.h"
+	"juce_appframework/application/juce_ApplicationProperties.h"
+	"juce_appframework/application/juce_DeletedAtShutdown.h"
+	"juce_appframework/application/juce_PropertiesFile.h"
+	"juce_appframework/application/juce_SystemClipboard.h"
+	"juce_appframework/audio/midi/juce_MidiBuffer.h"
+	"juce_appframework/audio/midi/juce_MidiFile.h"
+	"juce_appframework/audio/midi/juce_MidiKeyboardState.h"
+	"juce_appframework/audio/midi/juce_MidiMessage.h"
+	"juce_appframework/audio/midi/juce_MidiMessageCollector.h"
+	"juce_appframework/audio/midi/juce_MidiMessageSequence.h"
+	"juce_appframework/audio/dsp/juce_AudioDataConverters.h"
+	"juce_appframework/audio/dsp/juce_AudioSampleBuffer.h"
+	"juce_appframework/audio/dsp/juce_IIRFilter.h"
+	"juce_appframework/audio/processors/juce_AudioPlayHead.h"
+	"juce_appframework/audio/processors/juce_AudioProcessor.h"
+	"juce_appframework/audio/processors/juce_AudioProcessorEditor.h"
+	"juce_appframework/audio/processors/juce_AudioProcessorListener.h"
+	"juce_appframework/audio/processors/juce_GenericAudioProcessorEditor.h"
+	"juce_appframework/audio/audio_sources/juce_AudioFormatReaderSource.h"
+	"juce_appframework/audio/audio_sources/juce_AudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_AudioSourcePlayer.h"
+	"juce_appframework/audio/audio_sources/juce_AudioTransportSource.h"
+	"juce_appframework/audio/audio_sources/juce_BufferingAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_ChannelRemappingAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_IIRFilterAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_MixerAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_PositionableAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_ResamplingAudioSource.h"
+	"juce_appframework/audio/audio_sources/juce_ToneGeneratorAudioSource.h"
+	"juce_appframework/audio/devices/juce_AudioDeviceManager.h"
+	"juce_appframework/audio/devices/juce_AudioIODevice.h"
+	"juce_appframework/audio/devices/juce_AudioIODeviceType.h"
+	"juce_appframework/audio/devices/juce_MidiInput.h"
+	"juce_appframework/audio/devices/juce_MidiOutput.h"
+	"juce_appframework/audio/synthesisers/juce_Sampler.h"
+	"juce_appframework/audio/synthesisers/juce_Synthesiser.h"
+	"juce_appframework/audio/audio_file_formats/juce_AiffAudioFormat.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioCDReader.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioFormat.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioFormatManager.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioFormatReader.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioFormatWriter.h"
+	"juce_appframework/audio/audio_file_formats/juce_AudioSubsectionReader.h"
+	"juce_appframework/audio/audio_file_formats/juce_FlacAudioFormat.h"
+	"juce_appframework/audio/audio_file_formats/juce_OggVorbisAudioFormat.h"
+	"juce_appframework/audio/audio_file_formats/juce_WavAudioFormat.h"
+	"juce_appframework/events/juce_ActionBroadcaster.h"
+	"juce_appframework/events/juce_ActionListener.h"
+	"juce_appframework/events/juce_ActionListenerList.h"
+	"juce_appframework/events/juce_AsyncUpdater.h"
+	"juce_appframework/events/juce_ChangeBroadcaster.h"
+	"juce_appframework/events/juce_ChangeListener.h"
+	"juce_appframework/events/juce_ChangeListenerList.h"
+	"juce_appframework/events/juce_InterprocessConnection.h"
+	"juce_appframework/events/juce_InterprocessConnectionServer.h"
+	"juce_appframework/events/juce_Message.h"
+	"juce_appframework/events/juce_MessageListener.h"
+	"juce_appframework/events/juce_MessageManager.h"
+	"juce_appframework/events/juce_MultiTimer.h"
+	"juce_appframework/events/juce_Timer.h"
+	"juce_appframework/gui/graphics/brushes/juce_Brush.h"
+	"juce_appframework/gui/graphics/brushes/juce_GradientBrush.h"
+	"juce_appframework/gui/graphics/brushes/juce_ImageBrush.h"
+	"juce_appframework/gui/graphics/brushes/juce_SolidColourBrush.h"
+	"juce_appframework/gui/graphics/colour/juce_Colour.h"
+	"juce_appframework/gui/graphics/colour/juce_ColourGradient.h"
+	"juce_appframework/gui/graphics/colour/juce_Colours.h"
+	"juce_appframework/gui/graphics/colour/juce_PixelFormats.h"
+	"juce_appframework/gui/graphics/fonts/juce_Font.h"
+	"juce_appframework/gui/graphics/fonts/juce_GlyphArrangement.h"
+	"juce_appframework/gui/graphics/fonts/juce_TextLayout.h"
+	"juce_appframework/gui/graphics/fonts/juce_Typeface.h"
+	"juce_appframework/gui/graphics/contexts/juce_EdgeTable.h"
+	"juce_appframework/gui/graphics/contexts/juce_Graphics.h"
+	"juce_appframework/gui/graphics/contexts/juce_Justification.h"
+	"juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsContext.h"
+	"juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsPostScriptRenderer.h"
+	"juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsSoftwareRenderer.h"
+	"juce_appframework/gui/graphics/contexts/juce_RectanglePlacement.h"
+	"juce_appframework/gui/graphics/geometry/juce_AffineTransform.h"
+	"juce_appframework/gui/graphics/geometry/juce_BorderSize.h"
+	"juce_appframework/gui/graphics/geometry/juce_Line.h"
+	"juce_appframework/gui/graphics/geometry/juce_Path.h"
+	"juce_appframework/gui/graphics/geometry/juce_PathIterator.h"
+	"juce_appframework/gui/graphics/geometry/juce_PathStrokeType.h"
+	"juce_appframework/gui/graphics/geometry/juce_Point.h"
+	"juce_appframework/gui/graphics/geometry/juce_PositionedRectangle.h"
+	"juce_appframework/gui/graphics/geometry/juce_Rectangle.h"
+	"juce_appframework/gui/graphics/geometry/juce_RectangleList.h"
+	"juce_appframework/gui/graphics/imaging/juce_Image.h"
+	"juce_appframework/gui/graphics/imaging/juce_ImageCache.h"
+	"juce_appframework/gui/graphics/imaging/juce_ImageConvolutionKernel.h"
+	"juce_appframework/gui/graphics/imaging/juce_ImageFileFormat.h"
+	"juce_appframework/gui/graphics/drawables/juce_Drawable.h"
+	"juce_appframework/gui/graphics/drawables/juce_DrawableComposite.h"
+	"juce_appframework/gui/graphics/drawables/juce_DrawableImage.h"
+	"juce_appframework/gui/graphics/drawables/juce_DrawablePath.h"
+	"juce_appframework/gui/graphics/drawables/juce_DrawableText.h"
+	"juce_appframework/gui/components/juce_Component.h"
+	"juce_appframework/gui/components/juce_ComponentDeletionWatcher.h"
+	"juce_appframework/gui/components/juce_ComponentListener.h"
+	"juce_appframework/gui/components/juce_Desktop.h"
+	"juce_appframework/gui/components/buttons/juce_ArrowButton.h"
+	"juce_appframework/gui/components/buttons/juce_Button.h"
+	"juce_appframework/gui/components/buttons/juce_DrawableButton.h"
+	"juce_appframework/gui/components/buttons/juce_HyperlinkButton.h"
+	"juce_appframework/gui/components/buttons/juce_ImageButton.h"
+	"juce_appframework/gui/components/buttons/juce_ShapeButton.h"
+	"juce_appframework/gui/components/buttons/juce_TextButton.h"
+	"juce_appframework/gui/components/buttons/juce_ToggleButton.h"
+	"juce_appframework/gui/components/buttons/juce_ToolbarButton.h"
+	"juce_appframework/gui/graphics/effects/juce_DropShadowEffect.h"
+	"juce_appframework/gui/graphics/effects/juce_GlowEffect.h"
+	"juce_appframework/gui/graphics/effects/juce_ImageEffectFilter.h"
+	"juce_appframework/gui/graphics/effects/juce_ReduceOpacityEffect.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyboardFocusTraverser.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyListener.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyMappingEditorComponent.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyPress.h"
+	"juce_appframework/gui/components/keyboard/juce_KeyPressMappingSet.h"
+	"juce_appframework/gui/components/keyboard/juce_ModifierKeys.h"
+	"juce_appframework/gui/components/menus/juce_MenuBarComponent.h"
+	"juce_appframework/gui/components/menus/juce_MenuBarModel.h"
+	"juce_appframework/gui/components/menus/juce_PopupMenu.h"
+	"juce_appframework/gui/components/menus/juce_PopupMenuCustomComponent.h"
+	"juce_appframework/gui/components/mouse/juce_ComponentDragger.h"
+	"juce_appframework/gui/components/mouse/juce_DragAndDropContainer.h"
+	"juce_appframework/gui/components/mouse/juce_DragAndDropTarget.h"
+	"juce_appframework/gui/components/mouse/juce_FileDragAndDropTarget.h"
+	"juce_appframework/gui/components/mouse/juce_LassoComponent.h"
+	"juce_appframework/gui/components/mouse/juce_MouseCursor.h"
+	"juce_appframework/gui/components/mouse/juce_MouseEvent.h"
+	"juce_appframework/gui/components/mouse/juce_MouseHoverDetector.h"
+	"juce_appframework/gui/components/mouse/juce_MouseListener.h"
+	"juce_appframework/gui/components/mouse/juce_TooltipClient.h"
+	"juce_appframework/gui/components/controls/juce_ComboBox.h"
+	"juce_appframework/gui/components/controls/juce_Label.h"
+	"juce_appframework/gui/components/controls/juce_ListBox.h"
+	"juce_appframework/gui/components/controls/juce_ProgressBar.h"
+	"juce_appframework/gui/components/controls/juce_Slider.h"
+	"juce_appframework/gui/components/controls/juce_SliderListener.h"
+	"juce_appframework/gui/components/controls/juce_TableHeaderComponent.h"
+	"juce_appframework/gui/components/controls/juce_TableListBox.h"
+	"juce_appframework/gui/components/controls/juce_TextEditor.h"
+	"juce_appframework/gui/components/controls/juce_Toolbar.h"
+	"juce_appframework/gui/components/controls/juce_ToolbarItemComponent.h"
+	"juce_appframework/gui/components/controls/juce_ToolbarItemFactory.h"
+	"juce_appframework/gui/components/controls/juce_ToolbarItemPalette.h"
+	"juce_appframework/gui/components/controls/juce_TreeView.h"
+	"juce_appframework/gui/components/properties/juce_BooleanPropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_ButtonPropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_ChoicePropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_PropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_PropertyPanel.h"
+	"juce_appframework/gui/components/properties/juce_SliderPropertyComponent.h"
+	"juce_appframework/gui/components/properties/juce_TextPropertyComponent.h"
+	"juce_appframework/gui/components/layout/juce_ComponentAnimator.h"
+	"juce_appframework/gui/components/layout/juce_ComponentBoundsConstrainer.h"
+	"juce_appframework/gui/components/layout/juce_ComponentMovementWatcher.h"
+	"juce_appframework/gui/components/layout/juce_GroupComponent.h"
+	"juce_appframework/gui/components/layout/juce_MultiDocumentPanel.h"
+	"juce_appframework/gui/components/layout/juce_ResizableBorderComponent.h"
+	"juce_appframework/gui/components/layout/juce_ResizableCornerComponent.h"
+	"juce_appframework/gui/components/layout/juce_ScrollBar.h"
+	"juce_appframework/gui/components/layout/juce_StretchableLayoutManager.h"
+	"juce_appframework/gui/components/layout/juce_StretchableLayoutResizerBar.h"
+	"juce_appframework/gui/components/layout/juce_StretchableObjectResizer.h"
+	"juce_appframework/gui/components/layout/juce_TabbedButtonBar.h"
+	"juce_appframework/gui/components/layout/juce_TabbedComponent.h"
+	"juce_appframework/gui/components/layout/juce_Viewport.h"
+	"juce_appframework/gui/components/filebrowser/juce_DirectoryContentsDisplayComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_DirectoryContentsList.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileBrowserComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileBrowserListener.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileChooser.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileChooserDialogBox.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileFilter.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileListComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FilenameComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FilePreviewComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileSearchPathListComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_FileTreeComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_ImagePreviewComponent.h"
+	"juce_appframework/gui/components/filebrowser/juce_WildcardFileFilter.h"
+	"juce_appframework/gui/components/windows/juce_AlertWindow.h"
+	"juce_appframework/gui/components/windows/juce_ComponentPeer.h"
+	"juce_appframework/gui/components/windows/juce_DialogWindow.h"
+	"juce_appframework/gui/components/windows/juce_DocumentWindow.h"
+	"juce_appframework/gui/components/windows/juce_ResizableWindow.h"
+	"juce_appframework/gui/components/windows/juce_SplashScreen.h"
+	"juce_appframework/gui/components/windows/juce_ThreadWithProgressWindow.h"
+	"juce_appframework/gui/components/windows/juce_TooltipWindow.h"
+	"juce_appframework/gui/components/windows/juce_TopLevelWindow.h"
+	"juce_appframework/gui/components/special/juce_ActiveXControlComponent.h"
+	"juce_appframework/gui/components/special/juce_AudioDeviceSelectorComponent.h"
+	"juce_appframework/gui/components/special/juce_BubbleComponent.h"
+	"juce_appframework/gui/components/special/juce_BubbleMessageComponent.h"
+	"juce_appframework/gui/components/special/juce_ColourSelector.h"
+	"juce_appframework/gui/components/special/juce_DropShadower.h"
+	"juce_appframework/gui/components/special/juce_MagnifierComponent.h"
+	"juce_appframework/gui/components/special/juce_MidiKeyboardComponent.h"
+	"juce_appframework/gui/components/special/juce_OpenGLComponent.h"
+	"juce_appframework/gui/components/special/juce_PreferencesPanel.h"
+	"juce_appframework/gui/components/special/juce_QuickTimeMovieComponent.h"
+	"juce_appframework/gui/components/special/juce_SystemTrayIconComponent.h"
+	"juce_appframework/gui/components/lookandfeel/juce_LookAndFeel.h"
+	"juce_appframework/gui/components/lookandfeel/juce_OldSchoolLookAndFeel.h"
+	"juce_appframework/documents/juce_FileBasedDocument.h"
+	"juce_appframework/documents/juce_RecentlyOpenedFilesList.h"
+	"juce_appframework/documents/juce_SelectedItemSet.h"
+	"juce_appframework/documents/juce_UndoableAction.h"
+	"juce_appframework/documents/juce_UndoManager.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_Application.h
+	"juce_ApplicationCommandTarget.h"
+	"../events/juce_ActionListener.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_ApplicationCommandTarget.h
+	"../gui/components/juce_Component.h"
+	"juce_ApplicationCommandInfo.h"
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/juce_Component.h
+	"mouse/juce_MouseCursor.h"
+	"mouse/juce_MouseListener.h"
+	"juce_ComponentListener.h"
+	"keyboard/juce_KeyListener.h"
+	"keyboard/juce_KeyboardFocusTraverser.h"
+	"../graphics/effects/juce_ImageEffectFilter.h"
+	"../graphics/geometry/juce_RectangleList.h"
+	"../graphics/geometry/juce_BorderSize.h"
+	"windows/juce_ComponentPeer.h"
+	"../../events/juce_MessageListener.h"
+	"../../../juce_core/text/juce_StringArray.h"
+	"../../../juce_core/containers/juce_VoidArray.h"
+	"../../../juce_core/containers/juce_PropertySet.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_MouseCursor.h
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_MouseListener.h
+	"juce_MouseEvent.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_MouseEvent.h
+	"../keyboard/juce_ModifierKeys.h"
+	"../../../../juce_core/basics/juce_Time.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/keyboard/juce_ModifierKeys.h
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/juce_ComponentListener.h
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/keyboard/juce_KeyListener.h
+	"juce_KeyPress.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/keyboard/juce_KeyPress.h
+	"juce_ModifierKeys.h"
+	"../../../../juce_core/text/juce_String.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/keyboard/juce_KeyboardFocusTraverser.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/effects/juce_ImageEffectFilter.h
+	"../../graphics/contexts/juce_Graphics.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/contexts/juce_Graphics.h
+	"../fonts/juce_Font.h"
+	"../geometry/juce_Rectangle.h"
+	"../geometry/juce_PathStrokeType.h"
+	"../geometry/juce_Line.h"
+	"../colour/juce_Colours.h"
+	"../brushes/juce_SolidColourBrush.h"
+	"juce_RectanglePlacement.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/fonts/juce_Font.h
+	"juce_Typeface.h"
+	"../geometry/juce_Path.h"
+	"../../../../juce_core/text/juce_StringArray.h"
+	"../../../../juce_core/containers/juce_ReferenceCountedObject.h"
+	"../../../../juce_core/containers/juce_OwnedArray.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/fonts/juce_Typeface.h
+	"../../../../juce_core/containers/juce_ReferenceCountedObject.h"
+	"../../../../juce_core/containers/juce_VoidArray.h"
+	"../../../../juce_core/io/juce_InputStream.h"
+	"../../../../juce_core/io/juce_OutputStream.h"
+	"../geometry/juce_Path.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_Path.h
+	"juce_AffineTransform.h"
+	"juce_Point.h"
+	"../contexts/juce_Justification.h"
+	"../../../../juce_core/containers/juce_Array.h"
+	"../../../../juce_core/io/juce_InputStream.h"
+	"../../../../juce_core/io/juce_OutputStream.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_AffineTransform.h
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_Point.h
+	"juce_AffineTransform.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/contexts/juce_Justification.h
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_Rectangle.h
+	"../../../../juce_core/text/juce_String.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_PathStrokeType.h
+	"juce_Path.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_Line.h
+	"juce_Path.h"
+	"juce_Point.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/colour/juce_Colours.h
+	"juce_Colour.h"
+	"../../../../juce_core/text/juce_String.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/colour/juce_Colour.h
+	"../colour/juce_PixelFormats.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/colour/juce_PixelFormats.h
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/brushes/juce_SolidColourBrush.h
+	"juce_Brush.h"
+	"../colour/juce_Colour.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/brushes/juce_Brush.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/contexts/juce_RectanglePlacement.h
+	"../geometry/juce_AffineTransform.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_RectangleList.h
+	"juce_Rectangle.h"
+	"juce_Path.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_BorderSize.h
+	"juce_Rectangle.h"
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_ComponentPeer.h
+	"../mouse/juce_MouseCursor.h"
+	"../../../events/juce_MessageListener.h"
+	"../../../../juce_core/text/juce_StringArray.h"
+	"../../graphics/geometry/juce_RectangleList.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_MessageListener.h
+	"juce_Message.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_Message.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_ApplicationCommandInfo.h
+	"../../juce_core/text/juce_String.h"
+	"../../juce_core/containers/juce_Array.h"
+	"../gui/components/keyboard/juce_KeyPress.h"
+	"juce_ApplicationCommandID.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_ApplicationCommandID.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_ApplicationCommandManager.h
+	"juce_ApplicationCommandTarget.h"
+	"../events/juce_AsyncUpdater.h"
+	"../gui/components/juce_Desktop.h"
+	"../../juce_core/containers/juce_SortedSet.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_AsyncUpdater.h
+	"juce_MessageListener.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/juce_Desktop.h
+	"juce_Component.h"
+	"../../application/juce_DeletedAtShutdown.h"
+	"../../events/juce_Timer.h"
+	"../../events/juce_AsyncUpdater.h"
+	"../../../juce_core/containers/juce_SortedSet.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_DeletedAtShutdown.h
+	"../../juce_core/containers/juce_Array.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_Timer.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_ApplicationProperties.h
+	"juce_PropertiesFile.h"
+	"juce_DeletedAtShutdown.h"
+	"../../juce_core/basics/juce_Singleton.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_PropertiesFile.h
+	"../../juce_core/io/files/juce_File.h"
+	"../../juce_core/containers/juce_PropertySet.h"
+	"../events/juce_Timer.h"
+	"../events/juce_ChangeBroadcaster.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_ChangeBroadcaster.h
+	"juce_ChangeListenerList.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_ChangeListenerList.h
+	"juce_ChangeListener.h"
+	"juce_MessageListener.h"
+	"../../juce_core/containers/juce_SortedSet.h"
+	"../../juce_core/threads/juce_ScopedLock.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_ChangeListener.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/application/juce_SystemClipboard.h
+	"../../juce_core/text/juce_String.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/midi/juce_MidiBuffer.h
+	"../../../juce_core/containers/juce_ArrayAllocationBase.h"
+	"juce_MidiMessage.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/midi/juce_MidiMessage.h
+	"../../../juce_core/text/juce_String.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/midi/juce_MidiFile.h
+	"juce_MidiMessageSequence.h"
+	"../../../juce_core/io/juce_InputStream.h"
+	"../../../juce_core/io/juce_OutputStream.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/midi/juce_MidiMessageSequence.h
+	"juce_MidiMessage.h"
+	"../../../juce_core/containers/juce_OwnedArray.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/midi/juce_MidiKeyboardState.h
+	"juce_MidiBuffer.h"
+	"../../../juce_core/threads/juce_ScopedLock.h"
+	"../../../juce_core/containers/juce_VoidArray.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/midi/juce_MidiMessageCollector.h
+	"../devices/juce_MidiInput.h"
+	"juce_MidiKeyboardState.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/devices/juce_MidiInput.h
+	"../midi/juce_MidiMessage.h"
+	"../../../juce_core/text/juce_StringArray.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/dsp/juce_AudioDataConverters.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/dsp/juce_AudioSampleBuffer.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/dsp/juce_IIRFilter.h
+	"../../../juce_core/threads/juce_CriticalSection.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_AudioFormatReaderSource.h
+	"juce_PositionableAudioSource.h"
+	"../../../juce_core/threads/juce_Thread.h"
+	"../audio_file_formats/juce_AudioFormatReader.h"
+	"../dsp/juce_AudioSampleBuffer.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_PositionableAudioSource.h
+	"juce_AudioSource.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_AudioSource.h
+	"../dsp/juce_AudioSampleBuffer.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_AudioFormatReader.h
+	"../../../juce_core/io/juce_InputStream.h"
+	"../../../juce_core/text/juce_StringPairArray.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_AudioSourcePlayer.h
+	"juce_AudioSource.h"
+	"../devices/juce_AudioIODevice.h"
+
+1189549645 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/devices/juce_AudioIODevice.h
+	"../../../juce_core/text/juce_StringArray.h"
+	"../../../juce_core/containers/juce_BitArray.h"
+	"../../../juce_core/containers/juce_OwnedArray.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_AudioTransportSource.h
+	"juce_BufferingAudioSource.h"
+	"juce_ResamplingAudioSource.h"
+	"../../events/juce_ChangeBroadcaster.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_BufferingAudioSource.h
+	"juce_PositionableAudioSource.h"
+	"../../../juce_core/threads/juce_Thread.h"
+	"../dsp/juce_AudioSampleBuffer.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_ResamplingAudioSource.h
+	"juce_AudioSource.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_ChannelRemappingAudioSource.h
+	"juce_AudioSource.h"
+	"../../../juce_core/text/juce_XmlElement.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_IIRFilterAudioSource.h
+	"juce_AudioSource.h"
+	"../dsp/juce_IIRFilter.h"
+	"../../../juce_core/containers/juce_OwnedArray.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_MixerAudioSource.h
+	"juce_AudioSource.h"
+	"../../../juce_core/threads/juce_CriticalSection.h"
+	"../../../juce_core/containers/juce_VoidArray.h"
+	"../../../juce_core/containers/juce_BitArray.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_sources/juce_ToneGeneratorAudioSource.h
+	"juce_AudioSource.h"
+
+1190828559 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/devices/juce_AudioDeviceManager.h
+	"juce_AudioIODeviceType.h"
+	"juce_MidiInput.h"
+	"juce_MidiOutput.h"
+	"../../../juce_core/text/juce_XmlElement.h"
+	"../../gui/components/controls/juce_ComboBox.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/devices/juce_AudioIODeviceType.h
+	"juce_AudioIODevice.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/devices/juce_MidiOutput.h
+	"../../../juce_core/text/juce_StringArray.h"
+	"../../../juce_core/threads/juce_Thread.h"
+	"../midi/juce_MidiMessage.h"
+	"../midi/juce_MidiBuffer.h"
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_ComboBox.h
+	"juce_Label.h"
+	"../../../../juce_core/text/juce_StringArray.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_Label.h
+	"../juce_ComponentDeletionWatcher.h"
+	"../../../events/juce_AsyncUpdater.h"
+	"juce_TextEditor.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/juce_ComponentDeletionWatcher.h
+	"juce_Component.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_TextEditor.h
+	"../juce_Component.h"
+	"../../../events/juce_Timer.h"
+	"../../../documents/juce_UndoManager.h"
+	"../layout/juce_Viewport.h"
+	"../menus/juce_PopupMenu.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/documents/juce_UndoManager.h
+	"../../juce_core/text/juce_String.h"
+	"../../juce_core/containers/juce_OwnedArray.h"
+	"../../juce_core/text/juce_StringArray.h"
+	"../events/juce_ChangeBroadcaster.h"
+	"juce_UndoableAction.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/documents/juce_UndoableAction.h
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_Viewport.h
+	"juce_ScrollBar.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_ScrollBar.h
+	"../../../events/juce_AsyncUpdater.h"
+	"../../../events/juce_Timer.h"
+	"../buttons/juce_Button.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_Button.h
+	"../juce_Component.h"
+	"../keyboard/juce_KeyListener.h"
+	"../../../application/juce_ApplicationCommandManager.h"
+	"../../../../juce_core/containers/juce_SortedSet.h"
+	"../windows/juce_TooltipWindow.h"
+	"../../../events/juce_Timer.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_TooltipWindow.h
+	"../juce_Component.h"
+	"../../../events/juce_Timer.h"
+	"../mouse/juce_TooltipClient.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_TooltipClient.h
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/synthesisers/juce_Sampler.h
+	"../../../juce_core/containers/juce_BitArray.h"
+	"juce_Synthesiser.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/synthesisers/juce_Synthesiser.h
+	"../dsp/juce_AudioSampleBuffer.h"
+	"../midi/juce_MidiBuffer.h"
+	"../../../juce_core/containers/juce_OwnedArray.h"
+	"../../../juce_core/containers/juce_ReferenceCountedObject.h"
+	"../../../juce_core/containers/juce_ReferenceCountedArray.h"
+	"../../../juce_core/threads/juce_CriticalSection.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_AiffAudioFormat.h
+	"juce_AudioFormat.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_AudioFormat.h
+	"juce_AudioFormatReader.h"
+	"juce_AudioFormatWriter.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_AudioFormatWriter.h
+	"../../../juce_core/io/files/juce_FileOutputStream.h"
+	"juce_AudioFormatReader.h"
+	"../audio_sources/juce_AudioSource.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_AudioCDReader.h
+	"juce_AudioFormatReader.h"
+	"../../../juce_core/text/juce_StringArray.h"
+	"../../../juce_core/io/files/juce_File.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_AudioFormatManager.h
+	"juce_AudioFormat.h"
+	"../../../juce_core/basics/juce_Singleton.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_AudioSubsectionReader.h
+	"juce_AudioFormatReader.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_FlacAudioFormat.h
+	"juce_AudioFormat.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_OggVorbisAudioFormat.h
+	"juce_AudioFormat.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/audio_file_formats/juce_WavAudioFormat.h
+	"juce_AudioFormat.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_ActionBroadcaster.h
+	"juce_ActionListenerList.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_ActionListenerList.h
+	"juce_ActionListener.h"
+	"juce_MessageListener.h"
+	"../../juce_core/containers/juce_SortedSet.h"
+	"../../juce_core/threads/juce_CriticalSection.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_ActionListener.h
+	"../../juce_core/text/juce_String.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_InterprocessConnection.h
+	"juce_MessageListener.h"
+	"../../juce_core/threads/juce_Thread.h"
+	"../../juce_core/io/network/juce_Socket.h"
+	"../../juce_core/io/files/juce_NamedPipe.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_InterprocessConnectionServer.h
+	"juce_InterprocessConnection.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_MessageManager.h
+	"../application/juce_DeletedAtShutdown.h"
+	"../../juce_core/containers/juce_SortedSet.h"
+	"juce_ActionListenerList.h"
+	"juce_Timer.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/events/juce_MultiTimer.h
+	"juce_Timer.h"
+	"../../juce_core/containers/juce_VoidArray.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/brushes/juce_GradientBrush.h
+	"juce_Brush.h"
+	"../colour/juce_ColourGradient.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/colour/juce_ColourGradient.h
+	"juce_Colour.h"
+	"../geometry/juce_AffineTransform.h"
+	"../../../../juce_core/containers/juce_Array.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/brushes/juce_ImageBrush.h
+	"juce_Brush.h"
+	"../imaging/juce_Image.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/imaging/juce_Image.h
+	"../colour/juce_Colour.h"
+	"../contexts/juce_Graphics.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/fonts/juce_GlyphArrangement.h
+	"juce_Font.h"
+	"../contexts/juce_Graphics.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/fonts/juce_TextLayout.h
+	"juce_Font.h"
+	"../contexts/juce_Justification.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/contexts/juce_EdgeTable.h
+	"../geometry/juce_AffineTransform.h"
+	"../../../../juce_core/containers/juce_MemoryBlock.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsContext.h
+	"../imaging/juce_Image.h"
+	"../geometry/juce_Path.h"
+	"../geometry/juce_RectangleList.h"
+	"../colour/juce_ColourGradient.h"
+	"juce_EdgeTable.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsPostScriptRenderer.h
+	"juce_LowLevelGraphicsContext.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/contexts/juce_LowLevelGraphicsSoftwareRenderer.h
+	"juce_LowLevelGraphicsContext.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_PathIterator.h
+	"juce_Path.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/geometry/juce_PositionedRectangle.h
+	"../../components/juce_Component.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/imaging/juce_ImageCache.h
+	"juce_Image.h"
+	"../../../../juce_core/io/files/juce_File.h"
+	"../../../events/juce_Timer.h"
+	"../../../application/juce_DeletedAtShutdown.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/imaging/juce_ImageConvolutionKernel.h
+	"juce_Image.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/imaging/juce_ImageFileFormat.h
+	"juce_Image.h"
+	"../../../../juce_core/io/files/juce_File.h"
+	"../../../../juce_core/io/juce_InputStream.h"
+	"../../../../juce_core/io/juce_OutputStream.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/drawables/juce_Drawable.h
+	"../contexts/juce_Graphics.h"
+	"../../../../juce_core/text/juce_XmlElement.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/drawables/juce_DrawableComposite.h
+	"juce_Drawable.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/drawables/juce_DrawableImage.h
+	"juce_Drawable.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/drawables/juce_DrawablePath.h
+	"juce_Drawable.h"
+	"../colour/juce_ColourGradient.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/drawables/juce_DrawableText.h
+	"juce_Drawable.h"
+	"../fonts/juce_GlyphArrangement.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_ArrowButton.h
+	"juce_Button.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/effects/juce_DropShadowEffect.h
+	"juce_ImageEffectFilter.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_DrawableButton.h
+	"juce_Button.h"
+	"../../graphics/drawables/juce_Drawable.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_HyperlinkButton.h
+	"juce_Button.h"
+	"../../../../juce_core/io/network/juce_URL.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_ImageButton.h
+	"juce_Button.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_ShapeButton.h
+	"juce_Button.h"
+	"../../graphics/geometry/juce_Path.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_TextButton.h
+	"juce_Button.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_ToggleButton.h
+	"juce_Button.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/buttons/juce_ToolbarButton.h
+	"../controls/juce_ToolbarItemComponent.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_ToolbarItemComponent.h
+	"../buttons/juce_Button.h"
+	"../../graphics/drawables/juce_Drawable.h"
+	"juce_Toolbar.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_Toolbar.h
+	"../mouse/juce_DragAndDropContainer.h"
+	"../layout/juce_ComponentAnimator.h"
+	"../buttons/juce_Button.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_DragAndDropContainer.h
+	"juce_DragAndDropTarget.h"
+
+1190828560 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_DragAndDropTarget.h
+	"../juce_Component.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_ComponentAnimator.h
+	"../juce_Component.h"
+	"../juce_ComponentDeletionWatcher.h"
+	"../../../events/juce_Timer.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/effects/juce_GlowEffect.h
+	"juce_ImageEffectFilter.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/graphics/effects/juce_ReduceOpacityEffect.h
+	"juce_ImageEffectFilter.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/keyboard/juce_KeyMappingEditorComponent.h
+	"../keyboard/juce_KeyPressMappingSet.h"
+	"../controls/juce_TreeView.h"
+	"../buttons/juce_TextButton.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/keyboard/juce_KeyPressMappingSet.h
+	"juce_KeyListener.h"
+	"../../../application/juce_ApplicationCommandManager.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+	"../../../../juce_core/text/juce_StringArray.h"
+	"../../../../juce_core/text/juce_XmlElement.h"
+	"../../../../juce_core/containers/juce_OwnedArray.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_TreeView.h
+	"../layout/juce_Viewport.h"
+	"../../../../juce_core/text/juce_XmlElement.h"
+	"../../../events/juce_AsyncUpdater.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/menus/juce_MenuBarComponent.h
+	"juce_MenuBarModel.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/menus/juce_MenuBarModel.h
+	"juce_PopupMenu.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/menus/juce_PopupMenu.h
+	"juce_PopupMenuCustomComponent.h"
+	"../../../application/juce_ApplicationCommandManager.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/menus/juce_PopupMenuCustomComponent.h
+	"../juce_Component.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_ComponentDragger.h
+	"juce_MouseEvent.h"
+	"../layout/juce_ComponentBoundsConstrainer.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_ComponentBoundsConstrainer.h
+	"../juce_Component.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_LassoComponent.h
+	"../juce_Component.h"
+	"../../../documents/juce_SelectedItemSet.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/documents/juce_SelectedItemSet.h
+	"../events/juce_ChangeBroadcaster.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/mouse/juce_MouseHoverDetector.h
+	"juce_MouseListener.h"
+	"../../../events/juce_Timer.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_ListBox.h
+	"../layout/juce_Viewport.h"
+	"../../../../juce_core/containers/juce_SparseSet.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_ProgressBar.h
+	"../juce_Component.h"
+	"../mouse/juce_TooltipClient.h"
+	"../../../events/juce_Timer.h"
+
+1190828561 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_Slider.h
+	"juce_SliderListener.h"
+	"juce_Label.h"
+	"../buttons/juce_Button.h"
+	"../../../events/juce_AsyncUpdater.h"
+	"../../../../juce_core/containers/juce_SortedSet.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_SliderListener.h
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_TableHeaderComponent.h
+	"../menus/juce_PopupMenu.h"
+	"../../../events/juce_AsyncUpdater.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_TableListBox.h
+	"juce_TableHeaderComponent.h"
+	"juce_ListBox.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_ToolbarItemFactory.h
+	"juce_ToolbarItemComponent.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/controls/juce_ToolbarItemPalette.h
+	"juce_Toolbar.h"
+	"../layout/juce_Viewport.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/properties/juce_BooleanPropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../buttons/juce_ToggleButton.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/properties/juce_PropertyComponent.h
+	"../juce_Component.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/properties/juce_ButtonPropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../buttons/juce_TextButton.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/properties/juce_ChoicePropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../controls/juce_ComboBox.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/properties/juce_PropertyPanel.h
+	"juce_PropertyComponent.h"
+	"../layout/juce_Viewport.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/properties/juce_SliderPropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../controls/juce_Slider.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/properties/juce_TextPropertyComponent.h
+	"juce_PropertyComponent.h"
+	"../controls/juce_Label.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_ComponentMovementWatcher.h
+	"../juce_Component.h"
+	"../juce_ComponentDeletionWatcher.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_GroupComponent.h
+	"../juce_Component.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_MultiDocumentPanel.h
+	"juce_TabbedComponent.h"
+	"../windows/juce_DocumentWindow.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_TabbedComponent.h
+	"juce_TabbedButtonBar.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_TabbedButtonBar.h
+	"../buttons/juce_Button.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_ResizableBorderComponent.h
+	"juce_ComponentBoundsConstrainer.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_ResizableCornerComponent.h
+	"juce_ComponentBoundsConstrainer.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_StretchableLayoutManager.h
+	"../juce_Component.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_StretchableLayoutResizerBar.h
+	"../juce_Component.h"
+	"juce_StretchableLayoutManager.h"
+
+1188816642 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/layout/juce_StretchableObjectResizer.h
+	"../../../../juce_core/containers/juce_OwnedArray.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_DirectoryContentsDisplayComponent.h
+	"juce_DirectoryContentsList.h"
+	"juce_FileBrowserListener.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_DirectoryContentsList.h
+	"juce_FileFilter.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+	"../../../../juce_core/threads/juce_TimeSliceThread.h"
+	"../../graphics/imaging/juce_Image.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FileFilter.h
+	"../../../../juce_core/io/files/juce_File.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FileBrowserListener.h
+	"../mouse/juce_MouseEvent.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FileBrowserComponent.h
+	"juce_DirectoryContentsDisplayComponent.h"
+	"juce_FilePreviewComponent.h"
+	"../../../../juce_core/io/files/juce_File.h"
+	"../../../../juce_core/containers/juce_BitArray.h"
+	"../controls/juce_TextEditor.h"
+	"../controls/juce_ComboBox.h"
+	"../buttons/juce_DrawableButton.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FilePreviewComponent.h
+	"../../../../juce_core/io/files/juce_File.h"
+	"../juce_Component.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FileChooser.h
+	"juce_FilePreviewComponent.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FileChooserDialogBox.h
+	"juce_FileBrowserComponent.h"
+	"../windows/juce_ResizableWindow.h"
+	"../buttons/juce_TextButton.h"
+	"../../graphics/fonts/juce_GlyphArrangement.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_ResizableWindow.h
+	"juce_TopLevelWindow.h"
+	"../mouse/juce_ComponentDragger.h"
+	"../layout/juce_ResizableBorderComponent.h"
+	"../layout/juce_ResizableCornerComponent.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_TopLevelWindow.h
+	"../juce_Component.h"
+	"../special/juce_DropShadower.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_DropShadower.h
+	"../juce_Component.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FileListComponent.h
+	"juce_DirectoryContentsDisplayComponent.h"
+	"juce_FileBrowserListener.h"
+	"../controls/juce_ListBox.h"
+	"../controls/juce_TreeView.h"
+
+1190828560 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FilenameComponent.h
+	"../controls/juce_ComboBox.h"
+	"../../../events/juce_AsyncUpdater.h"
+	"../buttons/juce_TextButton.h"
+	"../../../../juce_core/io/files/juce_File.h"
+	"../mouse/juce_FileDragAndDropTarget.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FileTreeComponent.h
+	"juce_DirectoryContentsDisplayComponent.h"
+	"../controls/juce_TreeView.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_ImagePreviewComponent.h
+	"juce_FilePreviewComponent.h"
+	"../../../events/juce_Timer.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_WildcardFileFilter.h
+	"juce_FileFilter.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_AlertWindow.h
+	"juce_TopLevelWindow.h"
+	"../../graphics/fonts/juce_TextLayout.h"
+	"../controls/juce_ComboBox.h"
+	"../mouse/juce_ComponentDragger.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_DialogWindow.h
+	"juce_DocumentWindow.h"
+	"../buttons/juce_Button.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_DocumentWindow.h
+	"juce_ResizableWindow.h"
+	"../buttons/juce_Button.h"
+	"../menus/juce_MenuBarComponent.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_SplashScreen.h
+	"../juce_Component.h"
+	"../../../events/juce_Timer.h"
+	"../../../application/juce_DeletedAtShutdown.h"
+
+1188816641 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/windows/juce_ThreadWithProgressWindow.h
+	"../windows/juce_AlertWindow.h"
+	"../../../events/juce_Timer.h"
+	"../../../../juce_core/threads/juce_Thread.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_ActiveXControlComponent.h
+	"../juce_Component.h"
+
+1190828559 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_AudioDeviceSelectorComponent.h
+	"../controls/juce_ComboBox.h"
+	"../controls/juce_ListBox.h"
+	"../../../audio/devices/juce_AudioDeviceManager.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_BubbleComponent.h
+	"../juce_Component.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_BubbleMessageComponent.h
+	"juce_BubbleComponent.h"
+	"../../../events/juce_Timer.h"
+	"../../graphics/fonts/juce_TextLayout.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_ColourSelector.h
+	"../controls/juce_Slider.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_MagnifierComponent.h
+	"../juce_Component.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_MidiKeyboardComponent.h
+	"../buttons/juce_Button.h"
+	"../../../events/juce_AsyncUpdater.h"
+	"../../../events/juce_ChangeBroadcaster.h"
+	"../../../audio/midi/juce_MidiKeyboardState.h"
+	"../../../../juce_core/containers/juce_BitArray.h"
+
+1190828559 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_OpenGLComponent.h
+	"../juce_Component.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_PreferencesPanel.h
+	"../juce_Component.h"
+	"../buttons/juce_Button.h"
+	"../../graphics/drawables/juce_Drawable.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_QuickTimeMovieComponent.h
+	"../../../../juce_core/io/files/juce_File.h"
+	"juce_ActiveXControlComponent.h"
+	"../juce_Component.h"
+	"../../../events/juce_Timer.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/special/juce_SystemTrayIconComponent.h
+	"../juce_Component.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/lookandfeel/juce_LookAndFeel.h
+	"../../graphics/contexts/juce_Graphics.h"
+	"../../graphics/effects/juce_DropShadowEffect.h"
+	"../controls/juce_Slider.h"
+	"../layout/juce_TabbedComponent.h"
+
+1188816640 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/lookandfeel/juce_OldSchoolLookAndFeel.h
+	"juce_LookAndFeel.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/documents/juce_FileBasedDocument.h
+	"../../juce_core/io/files/juce_File.h"
+	"../events/juce_ChangeBroadcaster.h"
+
+1188816639 /home/kororaa/Projects/juce/trunk/src/juce_appframework/documents/juce_RecentlyOpenedFilesList.h
+	"../../juce_core/io/files/juce_File.h"
+	"../gui/components/menus/juce_PopupMenu.h"
+
+1189549645 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/processors/juce_AudioPlayHead.h
+
+1189549645 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/processors/juce_AudioProcessor.h
+	"juce_AudioProcessorEditor.h"
+	"../dsp/juce_AudioSampleBuffer.h"
+	"../midi/juce_MidiBuffer.h"
+	"../../../juce_core/containers/juce_BitArray.h"
+	"juce_AudioProcessorListener.h"
+	"juce_AudioPlayHead.h"
+
+1189549645 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/processors/juce_AudioProcessorEditor.h
+	"../../gui/components/juce_Component.h"
+
+1189549645 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/processors/juce_AudioProcessorListener.h
+
+1189549645 /home/kororaa/Projects/juce/trunk/src/juce_appframework/audio/processors/juce_GenericAudioProcessorEditor.h
+	"juce_AudioProcessorEditor.h"
+	"../../gui/components/properties/juce_PropertyPanel.h"
+
+1190828560 /home/kororaa/Projects/juce/trunk/src/juce_appframework/gui/components/filebrowser/juce_FileSearchPathListComponent.h
+	"../controls/juce_ListBox.h"
+	"../buttons/juce_Button.h"
+	"../mouse/juce_FileDragAndDropTarget.h"
+	"../../../../juce_core/io/files/juce_FileSearchPath.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/dsp/juce_AudioDataConverters.h
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/processors/juce_AudioPlayHead.h
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/processors/juce_AudioProcessor.h
+	"juce_AudioProcessorEditor.h"
+	"../dsp/juce_AudioSampleBuffer.h"
+	"../midi/juce_MidiBuffer.h"
+	"../../../juce_core/containers/juce_BitArray.h"
+	"juce_AudioProcessorListener.h"
+	"juce_AudioPlayHead.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/processors/juce_AudioProcessorEditor.h
+	"../../gui/components/juce_Component.h"
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/processors/juce_AudioProcessorListener.h
+
+1190878891 /home/kororaa/Projects/juce/src/juce_appframework/audio/processors/juce_GenericAudioProcessorEditor.h
+	"juce_AudioProcessorEditor.h"
+	"../../gui/components/properties/juce_PropertyPanel.h"
+
+1190878892 /home/kororaa/Projects/juce/src/juce_appframework/audio/audio_sources/juce_ChannelRemappingAudioSource.h
+	"juce_AudioSource.h"
+	"../../../juce_core/text/juce_XmlElement.h"
+
+1190882242 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/mouse/juce_FileDragAndDropTarget.h
+	"../juce_Component.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_DirectoryContentsDisplayComponent.h
+	"juce_DirectoryContentsList.h"
+	"juce_FileBrowserListener.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FileSearchPathListComponent.h
+	"../controls/juce_ListBox.h"
+	"../buttons/juce_Button.h"
+	"../mouse/juce_FileDragAndDropTarget.h"
+	"../../../../juce_core/io/files/juce_FileSearchPath.h"
+
+1190878929 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/filebrowser/juce_FileTreeComponent.h
+	"juce_DirectoryContentsDisplayComponent.h"
+	"../controls/juce_TreeView.h"
+
+1190878927 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/special/juce_SystemTrayIconComponent.h
+	"../juce_Component.h"
+
+1190878928 /home/kororaa/Projects/juce/src/juce_appframework/gui/components/lookandfeel/juce_OldSchoolLookAndFeel.h
+	"juce_LookAndFeel.h"
+
+1190829911 source:/home/kororaa/Projects/angeljuice/src/libraries/angelscript/as_callfunc_ppc_64.cpp
+	<stdio.h>
+	"as_config.h"
+	"as_callfunc.h"
+	"as_scriptengine.h"
+	"as_texts.h"
+	"as_tokendef.h"
+	<stdlib.h>
+
