@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Zu26sL" name="angeljuice" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.jucetice.angeljuice" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0" companyName="jucetice">
+  <MAINGROUP id="zBTgE8" name="angeljuice">
+    <GROUP id="{FE1F683C-72AD-6F78-C9BC-A6BC4DDCCBC7}" name="Source">
+      <GROUP id="{93D222DE-BC85-5D99-9FC9-F3723047B95A}" name="Engine">
+        <GROUP id="{12F82043-9EAD-2CDB-F7A2-79F907F26AA2}" name="Bindings">
+          <FILE id="DghGJX" name="AngelScriptCrypt.cpp" compile="1" resource="0"
+                file="Source/Engine/Bindings/AngelScriptCrypt.cpp"/>
+          <FILE id="q6rlcP" name="AngelScriptCrypt.h" compile="0" resource="0"
+                file="Source/Engine/Bindings/AngelScriptCrypt.h"/>
+          <FILE id="l1XbJJ" name="AngelScriptFile.cpp" compile="1" resource="0"
+                file="Source/Engine/Bindings/AngelScriptFile.cpp"/>
+          <FILE id="uYreFT" name="AngelScriptFile.h" compile="0" resource="0"
+                file="Source/Engine/Bindings/AngelScriptFile.h"/>
+          <FILE id="bupQGr" name="AngelScriptCore.cpp" compile="1" resource="0"
+                file="Source/Engine/Bindings/AngelScriptCore.cpp"/>
+          <FILE id="YMCIqm" name="AngelScriptCore.h" compile="0" resource="0"
+                file="Source/Engine/Bindings/AngelScriptCore.h"/>
+          <FILE id="SI3riu" name="AngelScriptString.cpp" compile="1" resource="0"
+                file="Source/Engine/Bindings/AngelScriptString.cpp"/>
+          <FILE id="lCP4Hp" name="AngelScriptString.h" compile="0" resource="0"
+                file="Source/Engine/Bindings/AngelScriptString.h"/>
+        </GROUP>
+        <FILE id="NXVukF" name="ScriptablePlugin.cpp" compile="1" resource="0"
+              file="Source/Engine/ScriptablePlugin.cpp"/>
+        <FILE id="as8tTy" name="ScriptablePlugin.h" compile="0" resource="0"
+              file="Source/Engine/ScriptablePlugin.h"/>
+        <FILE id="YfwcFO" name="ScriptablePreprocessor.cpp" compile="1" resource="0"
+              file="Source/Engine/ScriptablePreprocessor.cpp"/>
+        <FILE id="ELboFI" name="ScriptablePreprocessor.h" compile="0" resource="0"
+              file="Source/Engine/ScriptablePreprocessor.h"/>
+        <FILE id="T6Iild" name="ScriptableEngine.cpp" compile="1" resource="0"
+              file="Source/Engine/ScriptableEngine.cpp"/>
+        <FILE id="T01beQ" name="ScriptableEngine.h" compile="0" resource="0"
+              file="Source/Engine/ScriptableEngine.h"/>
+      </GROUP>
+      <GROUP id="{93CFC428-5FC9-A960-C9E8-2326B693E11A}" name="Interface">
+        <FILE id="jdIoDM" name="MainWindow.cpp" compile="1" resource="0" file="Source/Interface/MainWindow.cpp"/>
+        <FILE id="xX88Ja" name="MainWindow.h" compile="0" resource="0" file="Source/Interface/MainWindow.h"/>
+        <FILE id="FC2tSF" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/Interface/MainComponent.cpp"/>
+        <FILE id="Jd2zHY" name="MainComponent.h" compile="0" resource="0" file="Source/Interface/MainComponent.h"/>
+      </GROUP>
+      <GROUP id="{163C685D-C14D-2AB9-D4A4-A88632D79170}" name="UnitTest">
+        <FILE id="o854h2" name="unit_test.c" compile="0" resource="0" file="Builds/Linux/unit_test.c"/>
+      </GROUP>
+      <FILE id="FjeRiQ" name="CommandIDs.h" compile="0" resource="0" file="Source/CommandIDs.h"/>
+      <FILE id="W42TKz" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="Builds/Linux">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="angeljuice" headerPath="../../Modules/thirdparty/lua/sdk/src/&#10;../../Modules/thirdparty/luabind/sdk/&#10;"/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="3"
+                       targetName="angeljuice" headerPath="../../Modules/thirdparty/lua/sdk/src/&#10;../../Modules/thirdparty/luabind/sdk/&#10;"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_events" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_graphics" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_data_structures" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_cryptography" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_video" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_opengl" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="Modules/juce/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="Modules/juce/modules"/>
+        <MODULEPATH id="angelscript" path="Modules/thirdparty"/>
+        <MODULEPATH id="juce_audio_basics" path="Modules/juce/modules"/>
+        <MODULEPATH id="lua" path="Modules/thirdparty"/>
+        <MODULEPATH id="luabind" path="Modules/thirdparty"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="angelscript" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="lua" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="luabind" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>

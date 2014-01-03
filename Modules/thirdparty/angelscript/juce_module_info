@@ -1,0 +1,19 @@
+{
+  "id":             "angelscript",
+  "name":           "The AngelCode Scripting Library",
+  "version":        "1.0.0",
+  "description":    "The AngelCode Scripting Library, or AngelScript as it is also known, is an extremely flexible cross-platform scripting library designed to allow applications to extend their functionality through external scripts. It has been designed from the beginning to be an easy to use component, both for the application programmer and the script writer.",
+  "website":        "",
+  "license":        "zlib license, http://www.angelcode.com/angelscript/sdk/docs/manual/doc_license.html",
+
+  "dependencies":   [],
+
+  "include":        "angelscript.h",
+
+  "compile":        [ { "file": "angelscript.cpp", "target": "! xcode" },
+                      { "file": "angelscript.mm",  "target": "xcode" } ],
+
+  "browse":         [],
+
+  "iOSFrameworks":  ""
+}
