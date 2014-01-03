@@ -73,8 +73,6 @@ OBJECTS := \
   $(OBJDIR)/juce_gui_extra_aeabaa02.o \
   $(OBJDIR)/juce_opengl_65f72f46.o \
   $(OBJDIR)/juce_video_4394ef22.o \
-  $(OBJDIR)/lua_32f8bcae.o \
-  $(OBJDIR)/luabind_d50c7ea8.o \
 
 .PHONY: clean
 
@@ -213,16 +211,6 @@ $(OBJDIR)/juce_opengl_65f72f46.o: ../../Modules/juce/modules/juce_opengl/juce_op
 $(OBJDIR)/juce_video_4394ef22.o: ../../Modules/juce/modules/juce_video/juce_video.cpp
 	-@mkdir -p $(OBJDIR)
 	@echo "Compiling juce_video.cpp"
-	@$(CXX) $(CXXFLAGS) -o "$@" -c "$<"
-
-$(OBJDIR)/lua_32f8bcae.o: ../../Modules/thirdparty/lua/lua.cpp
-	-@mkdir -p $(OBJDIR)
-	@echo "Compiling lua.cpp"
-	@$(CXX) $(CXXFLAGS) -o "$@" -c "$<"
-
-$(OBJDIR)/luabind_d50c7ea8.o: ../../Modules/thirdparty/luabind/luabind.cpp
-	-@mkdir -p $(OBJDIR)
-	@echo "Compiling luabind.cpp"
 	@$(CXX) $(CXXFLAGS) -o "$@" -c "$<"
 
 -include $(OBJECTS:%.o=%.d)

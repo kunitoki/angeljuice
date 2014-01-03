@@ -74,8 +74,6 @@
         <MODULEPATH id="juce_audio_processors" path="Modules/juce/modules"/>
         <MODULEPATH id="angelscript" path="Modules/thirdparty"/>
         <MODULEPATH id="juce_audio_basics" path="Modules/juce/modules"/>
-        <MODULEPATH id="lua" path="Modules/thirdparty"/>
-        <MODULEPATH id="luabind" path="Modules/thirdparty"/>
       </MODULEPATHS>
     </LINUX_MAKE>
   </EXPORTFORMATS>
@@ -94,8 +92,6 @@
     <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
     <MODULES id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
     <MODULES id="juce_video" showAllCode="1" useLocalCopy="0"/>
-    <MODULES id="lua" showAllCode="1" useLocalCopy="0"/>
-    <MODULES id="luabind" showAllCode="1" useLocalCopy="0"/>
   </MODULES>
   <JUCEOPTIONS/>
 </JUCERPROJECT>

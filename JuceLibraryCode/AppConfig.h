@@ -36,8 +36,6 @@
 #define JUCE_MODULE_AVAILABLE_juce_gui_extra             1
 #define JUCE_MODULE_AVAILABLE_juce_opengl                1
 #define JUCE_MODULE_AVAILABLE_juce_video                 1
-#define JUCE_MODULE_AVAILABLE_lua                        1
-#define JUCE_MODULE_AVAILABLE_luabind                    1
 
 //==============================================================================
 // juce_audio_devices flags:

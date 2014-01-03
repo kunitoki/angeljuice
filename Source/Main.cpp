@@ -43,7 +43,6 @@ public:
     {
         // Add your application's initialisation code here..
 
-        /*
         // engine test
         engine.setEngineModel(this);
         engine.enableDebug(true);
@@ -58,30 +57,7 @@ public:
 
         // show the window
         //theMainWindow.setVisible (true);
-        */
-        
-        
-        // Create a new lua state
-        lua_State* L = lua_open();
-        luaL_openlibs(L);
-        
-        // Connect LuaBind to this lua state
-        luabind::open(L);
- 
-        // Define a lua function that we can call
-        luaL_dostring(
-            L,
-            "function add(first, second)\n"
-            "  return first + second\n"
-            "end\n"
-        );
- 
-        std::cout << "Result: "
-             << luabind::call_function<int>(L, "add", 2, 3)
-             << std::endl;
- 
-        lua_close(L);
-        
+                
         // early quit
         systemRequestedQuit();
     }
