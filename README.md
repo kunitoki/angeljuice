@@ -1,11 +1,9 @@
 angeljuice
 ==========
 
-AngelJuice is a standalone scripting IDE host that aims to easy fast application prototyping.
-
-
 Welcome to AngelJuice IDE source files !
-========================================
+
+AngelJuice is a standalone scripting IDE host that aims to easy fast application prototyping.
 
 Actually to compile AngelJuice you'll need to download the libraries is built around.
 The only external dependancy is JUCE, all the other libraries are self contained.
