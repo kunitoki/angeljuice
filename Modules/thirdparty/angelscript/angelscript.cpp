@@ -67,34 +67,25 @@
 #include "sdk/angelscript/source/as_typeinfo.cpp"
 #include "sdk/angelscript/source/as_variablescope.cpp"
 
-
+/*
+#pragma clang diagnostic ignored "-Wall"
 #include "sdk/add_on/contextmgr/contextmgr.cpp"
 #include "sdk/add_on/debugger/debugger.cpp"
 #include "sdk/add_on/scriptany/scriptany.cpp"
-
-#pragma clang diagnostic ignored "-Wall"
- #include "sdk/add_on/scriptarray/scriptarray.cpp"
-#pragma clang diagnostic pop
-
+//#include "sdk/add_on/scriptarray/scriptarray.cpp"
 #include "sdk/add_on/scriptbuilder/scriptbuilder.cpp"
-#include "sdk/add_on/scriptdictionary/scriptdictionary.cpp"
+//#include "sdk/add_on/scriptdictionary/scriptdictionary.cpp"
 #include "sdk/add_on/scriptfile/scriptfile.cpp"
 #include "sdk/add_on/scripthandle/scripthandle.cpp"
-
-//#pragma clang diagnostic ignored "-Wall"
-// #include "sdk/add_on/scripthelper/scripthelper.cpp"
-//#pragma clang diagnostic pop
-
+//#include "sdk/add_on/scripthelper/scripthelper.cpp"
 #include "sdk/add_on/scriptmath/scriptmath.cpp"
 #include "sdk/add_on/scriptmath/scriptmathcomplex.cpp"
-#include "sdk/add_on/scriptstdstring/scriptstdstring_utils.cpp"
-
-#pragma clang diagnostic ignored "-Wall"
- #include "sdk/add_on/scriptstdstring/scriptstdstring.cpp"
-#pragma clang diagnostic pop
-
+//#include "sdk/add_on/scriptstdstring/scriptstdstring_utils.cpp"
+//#include "sdk/add_on/scriptstdstring/scriptstdstring.cpp"
 #include "sdk/add_on/serializer/serializer.cpp"
 #include "sdk/add_on/weakref/weakref.cpp"
+#pragma clang diagnostic pop
+*/
 
 //#include "jit/as_jit.cpp"
 //#ifdef _MSC_VER

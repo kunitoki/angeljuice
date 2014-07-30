@@ -32,12 +32,11 @@
  #include "sdk/angelscript/include/angelscript.h"
 #endif
 
-
 //#ifndef ANGELSCRIPT_JIT_COMPILER_H
 // #include "jit/as_jit.h"
 //#endif
 
-
+/*
 #ifndef AS_GEN_WRAPPER_H
  #include "sdk/add_on/autowrapper/aswrappedcall.h"
 #endif
@@ -54,17 +53,17 @@
  #include "sdk/add_on/scriptany/scriptany.h"
 #endif
 
-#ifndef SCRIPTARRAY_H
- #include "sdk/add_on/scriptarray/scriptarray.h"
-#endif
+//#ifndef SCRIPTARRAY_H
+// #include "sdk/add_on/scriptarray/scriptarray.h"
+//#endif
 
 #ifndef SCRIPTBUILDER_H
  #include "sdk/add_on/scriptbuilder/scriptbuilder.h"
 #endif
 
-#ifndef SCRIPTDICTIONARY_H
- #include "sdk/add_on/scriptdictionary/scriptdictionary.h"
-#endif
+//#ifndef SCRIPTDICTIONARY_H
+// #include "sdk/add_on/scriptdictionary/scriptdictionary.h"
+//#endif
 
 #ifndef SCRIPTFILE_H
  #include "sdk/add_on/scriptfile/scriptfile.h"
@@ -86,9 +85,9 @@
  #include "sdk/add_on/scriptmath/scriptmathcomplex.h"
 #endif
 
-#ifndef SCRIPTSTDSTRING_H
- #include "sdk/add_on/scriptstdstring/scriptstdstring.h"
-#endif
+//#ifndef SCRIPTSTDSTRING_H
+// #include "sdk/add_on/scriptstdstring/scriptstdstring.h"
+//#endif
 
 #ifndef SERIALIZER_H
  #include "sdk/add_on/serializer/serializer.h"
@@ -97,3 +96,4 @@
 #ifndef SCRIPTWEAKREF_H
  #include "sdk/add_on/weakref/weakref.h"
 #endif
+*/

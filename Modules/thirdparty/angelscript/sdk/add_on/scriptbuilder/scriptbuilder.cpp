@@ -174,12 +174,16 @@ int CScriptBuilder::LoadScriptSection(const char *filename)
 
 	// Read the entire file
 	string code;
-	code.resize(len);
-	size_t c = fread(&code[0], len, 1, f);
+	size_t c = 0;
+	if( len > 0 )
+	{
+		code.resize(len);
+		c = fread(&code[0], len, 1, f);
+	}
 
 	fclose(f);
 
-	if( c == 0 )
+	if( c == 0 && len > 0 )
 	{
 		// Write a message to the engine's message callback
 		char buf[256];
@@ -188,6 +192,7 @@ int CScriptBuilder::LoadScriptSection(const char *filename)
 		return -1;
 	}
 
+	// Process the script section even if it is zero length so that the name is registered
 	return ProcessScriptSection(code.c_str(), (unsigned int)(code.length()), filename);
 }
 
@@ -663,14 +668,14 @@ int CScriptBuilder::ExcludeCode(int pos)
 	int nested = 0;
 	while( pos < (int)modifiedScript.size() )
 	{
-		asETokenClass t = engine->ParseToken(&modifiedScript[pos], modifiedScript.size() - pos, &len);
+		engine->ParseToken(&modifiedScript[pos], modifiedScript.size() - pos, &len);
 		if( modifiedScript[pos] == '#' )
 		{
 			modifiedScript[pos] = ' ';
 			pos++;
 
 			// Is it an #if or #endif directive?
-			t = engine->ParseToken(&modifiedScript[pos], modifiedScript.size() - pos, &len);
+			engine->ParseToken(&modifiedScript[pos], modifiedScript.size() - pos, &len);
 			string token;
 			token.assign(&modifiedScript[pos], len);
 			OverwriteCode(pos, len);
@@ -948,6 +953,9 @@ static const char *GetCurrentDir(char *buf, size_t size)
 	assert( size >= 7 );
 	sprintf(buf, "game:\\");
 	return buf;
+#elif defined(_M_ARM)
+	// TODO: How to determine current working dir on Windows Phone?
+	return ""; 
 #else
 	return _getcwd(buf, (int)size);
 #endif // _MSC_VER

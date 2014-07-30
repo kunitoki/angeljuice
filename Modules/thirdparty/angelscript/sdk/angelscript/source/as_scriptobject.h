@@ -121,13 +121,18 @@ public:
 
 	void CallDestructor();
 
+//=============================================
+// Properties
+//=============================================
+public:
 	asCObjectType *objType;
 
 protected:
 	mutable asCAtomic refCount;
-	mutable bool gcFlag;
-	mutable asCLockableSharedBool *weakRefFlag;
+	mutable asBYTE gcFlag:1;
+	mutable asBYTE hasRefCountReachedZero:1;
 	bool isDestructCalled;
+	mutable asCLockableSharedBool *weakRefFlag;
 };
 
 void ScriptObject_Construct(asCObjectType *objType, asCScriptObject *self);

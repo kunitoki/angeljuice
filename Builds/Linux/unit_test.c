@@ -19,10 +19,6 @@ void main()
     // Random
     Random r(1234);
     assert(r.nextInt() == 474780142);
-    Random@ x = @r;
-    println("" + x.nextFloat());
-    
-    x = nil;
     
     // Array<T>
     //String test("123");
@@ -73,9 +69,9 @@ void test_string()
 	assert("Abc".compareIgnoreCase("aBC") == 0);
 	assert("Abc".compareIgnoreCase("CBa") < 0);
 	assert("cbA".compareIgnoreCase("aBC") > 0);
-	assert("2".compareLexicographically("2") == 0);
-	assert("2".compareLexicographically("20") < 0);
-	assert("20".compareLexicographically("2") > 0);
+	assert("2".compareNatural("2") == 0);
+	assert("2".compareNatural("20") < 0);
+	assert("20".compareNatural("2") > 0);
 	assert("2013".startsWith("2"));
 	assert("2013".startsWith("0") == false);
 	assert("2013".startsWithChar('2'));

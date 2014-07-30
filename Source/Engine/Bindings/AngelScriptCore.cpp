@@ -616,7 +616,8 @@ void ScriptableSystemStats::registerFunctions(asIScriptEngine* engine) const
 	r = engine->RegisterEnumValue ("OperatingSystemType", "WinXP", SystemStats::WinXP); jassert(r>=0);
 	r = engine->RegisterEnumValue ("OperatingSystemType", "WinVista", SystemStats::WinVista); jassert(r>=0);
 	r = engine->RegisterEnumValue ("OperatingSystemType", "Windows7", SystemStats::Windows7); jassert(r>=0);
-	r = engine->RegisterEnumValue ("OperatingSystemType", "Windows8", SystemStats::Windows8); jassert(r>=0);
+	r = engine->RegisterEnumValue ("OperatingSystemType", "Windows8_0", SystemStats::Windows8_0); jassert(r>=0);
+	r = engine->RegisterEnumValue ("OperatingSystemType", "Windows8_1", SystemStats::Windows8_1); jassert(r>=0);
 	r = engine->RegisterEnumValue ("OperatingSystemType", "Windows", SystemStats::Windows); jassert(r>=0);
 	r = engine->SetDefaultNamespace(""); jassert(r >= 0);
 
@@ -983,6 +984,8 @@ void ScriptableMemoryBlock::registerFunctions(asIScriptEngine* engine) const
 
 //==============================================================================
 
+#if 0
+
 //------------------------------------------------------------------------------
 
 class ScriptableArray : public Array<void*>,
@@ -1118,6 +1121,6 @@ void ScriptableArrayTemplate::registerFunctions(asIScriptEngine* engine) const
 	r = engine->RegisterObjectMethod("Array<T>", "T& opIndex(int)",                                     asMETHODPR(ScriptableArray, at, (int32), void*), asCALL_THISCALL); jassert( r >= 0 );
 	r = engine->RegisterObjectMethod("Array<T>", "const T& opIndex(int) const",                         asMETHODPR(ScriptableArray, at, (int32) const, const void*), asCALL_THISCALL); jassert( r >= 0 );
 }
-
+#endif
 
 } // end namespace

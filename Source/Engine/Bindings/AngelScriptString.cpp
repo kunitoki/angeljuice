@@ -391,7 +391,7 @@ void ScriptableString::registerFunctions(asIScriptEngine* engine) const
 	r = engine->RegisterObjectMethod("String", "bool equalsIgnoreCase(const String& in) const",				        asMETHODPR(String, equalsIgnoreCase, (const String&) const, bool), asCALL_THISCALL); jassert( r >= 0 );
 	r = engine->RegisterObjectMethod("String", "int compare(const String& in) const",						        asMETHODPR(String, compare, (const String&) const, int), asCALL_THISCALL); jassert( r >= 0 );
 	r = engine->RegisterObjectMethod("String", "int compareIgnoreCase(const String& in) const",				        asMETHOD(String, compareIgnoreCase), asCALL_THISCALL); jassert( r >= 0 );
-	r = engine->RegisterObjectMethod("String", "int compareLexicographically(const String& in) const",		        asMETHOD(String, compareLexicographically), asCALL_THISCALL); jassert( r >= 0 );
+	r = engine->RegisterObjectMethod("String", "int compareNatural(const String& in) const",		                asMETHOD(String, compareNatural), asCALL_THISCALL); jassert( r >= 0 );
 	r = engine->RegisterObjectMethod("String", "bool startsWith(const String& in) const",					        asMETHOD(String, startsWith), asCALL_THISCALL); jassert( r >= 0 );
 	r = engine->RegisterObjectMethod("String", "bool startsWithChar(int) const",				                    asMETHOD(String, startsWithChar), asCALL_THISCALL); jassert( r >= 0 );
 	r = engine->RegisterObjectMethod("String", "bool startsWithIgnoreCase(const String& in) const",			        asMETHOD(String, startsWithIgnoreCase), asCALL_THISCALL); jassert( r >= 0 );

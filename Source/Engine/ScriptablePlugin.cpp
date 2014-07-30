@@ -51,7 +51,7 @@ ScriptableExtension::ScriptableExtension(const String& extToLoad) :
     creators.add(new Bindings::ScriptableTime);
     creators.add(new Bindings::ScriptableRelativeTime);
     creators.add(new Bindings::ScriptableMemoryBlock);
-    creators.add(new Bindings::ScriptableArrayTemplate);
+    //creators.add(new Bindings::ScriptableArrayTemplate);
 
     // string
     creators.add(new Bindings::ScriptableString);
