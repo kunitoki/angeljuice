@@ -39,11 +39,11 @@ void test_string()
 	second.append(first, 4);
 
 	String third;
-	
+
 	String utf8("àòùì'122123");
 
 	String a("123"), b("456");
-	
+
 	String sll;
 
     assert("1234" == String(1234));
@@ -185,7 +185,7 @@ void test_string()
 	// TODO - does not work
 	//sll << double(1.0000000000001);
 	//assert(sll == "-113.141.0000000000001");
-	
+
 }
 
 
